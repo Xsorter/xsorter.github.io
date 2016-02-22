@@ -4,7 +4,7 @@
 header{
 	width: 909px;
 	height: 315px;
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 13px;
 }
 
@@ -41,7 +41,7 @@ header{
 	margin-left: 14px;
 	border-radius: 3px;
 	display: inline-block;
-	position: absolute;	
+	position: absolute;
 	background: #1f6787;
     background: -moz-linear-gradient(top,  #1f6787 0%, #0d3458 100%);
     background: -webkit-linear-gradient(top,  #1f6787 0%,#0d3458 100%);
@@ -201,14 +201,14 @@ nav li a{
 	margin-top: -27px;
 	margin-left: 697px;
 	float: left;
-		
+
 }
 
 .cash p{
 	padding-left: 13px;
 	display: inline-block;
 	font-size: 12px;
-	
+
 
 }
 
@@ -237,7 +237,7 @@ nav li a{
 	margin-top: 9px;
 	padding-left: 10px;
 	clear: both;
-	
+
 }
 
 .leftform{
@@ -341,11 +341,11 @@ nav li a{
 	position: absolute;
 }
 
-.llist1 ul, .llist2 ul, .llist3 ul{
+.llist1, .llist2, .llist3{
 	list-style-image: url(../img/marklist.png);
 }
 
-.llist1 ul a, .llist2 ul a, .llist3 ul a{
+.llist1 a, .llist2 a, .llist3  a{
 	text-decoration: none;
 	color: #465961;
 	font-size: 14px;
@@ -353,25 +353,24 @@ nav li a{
 	letter-spacing: 0.1px;
 }
 
-.llist1 ul a:hover, .llist2 ul a:hover, .llist3 ul a:hover{
+.llist1 a:hover, .llist2 a:hover, .llist3 a:hover{
 	text-decoration: underline;
 	color: #0c3256;
 	font-style: italic;
 	font-weight: bolder;
 }
 
-.llist1 ul li, .llist2 ul li, .llist3 ul li{
+.llist1 li, .llist2 li, .llist3 li{
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
 
-.llist1 ul li:hover, .llist2 ul li:hover, .llist3 ul li:hover{
+.llist1 li:hover, .llist2 li:hover, .llist3 li:hover{
 	list-style-image: url(../img/markactive.png);
 }
 
-.llist1{
+.llist1 li{
 	width: 140px;
-	height: 100px;
 	margin-left: 51px;
 	margin-top: 1px;
 }
@@ -381,7 +380,7 @@ nav li a{
 	height: 26px;
 	border: 1px solid #8b979c;
 	border-radius: 18px;
-	margin-top: 0px;
+	margin-top: 5px;
 }
 
 .disk img{
@@ -400,7 +399,6 @@ nav li a{
 
 .llist2{
 	width: 140px;
-	height: 100px;
 	margin-left: 50px;
 }
 
@@ -409,7 +407,7 @@ nav li a{
 	height: 26px;
 	border: 1px solid #8b979c;
 	border-radius: 18px;
-	margin-top: 0px;
+	margin-top: 5px;
 }
 
 .bolt img{
@@ -428,7 +426,6 @@ nav li a{
 
 .llist3{
 	width: 140px;
-	height: 100px;
 	margin-left: 50px;
 }
 
@@ -473,7 +470,7 @@ nav li a{
 	text-align: center;
 }
 
-.item1 p:nth-child(2), .item2 p:nth-child(2), .item3 p:nth-child(2), .item4 p:nth-child(2), .item5 p:nth-child(2), 
+.item1 p:nth-child(2), .item2 p:nth-child(2), .item3 p:nth-child(2), .item4 p:nth-child(2), .item5 p:nth-child(2),
 .item6 p:nth-child(2), .item7 p:nth-child(2), .item8 p:nth-child(2), .item9 p:nth-child(2){
 	color: #1f2528;
 	font-family: Arial;
@@ -481,7 +478,7 @@ nav li a{
 	letter-spacing: 0.8px;
 }
 
-.item1 p:nth-child(4), .item2 p:nth-child(4), .item3 p:nth-child(4), .item4 p:nth-child(4), .item5 p:nth-child(4), 
+.item1 p:nth-child(4), .item2 p:nth-child(4), .item3 p:nth-child(4), .item4 p:nth-child(4), .item5 p:nth-child(4),
 .item6 p:nth-child(4), .item7 p:nth-child(4), .item8 p:nth-child(4), .item9 p:nth-child(4){
 	padding-top: 5px;
 	padding-left: 15px;
@@ -722,7 +719,7 @@ nav li a{
 /*FOOTER*/
 
 footer{
-	margin: 0 auto;	
+	margin: 0 auto;
 	margin-top: 25px;
 	width: 909px;
 	height: 100px;
@@ -735,7 +732,7 @@ footer{
 	margin-top: 11px;
 	margin-bottom: 15px;
 	width: 340px;
-	height: 11px;	
+	height: 11px;
 }
 
 .footer-menu a{
