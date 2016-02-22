@@ -5,40 +5,35 @@ header{
 	width: 909px;
 	height: 315px;
 	margin: 0 auto;
-	margin-top: 13px;
+	margin-top: 8px;
 }
 
 .head{
 	width: 908px;
-	height: 25px;
+	height: 27px;
 }
 
 .imgph{
-	margin-top: 4px;
-	margin-left: 7px;
+	margin-top: 9px;
+	margin-left: 8px;
 	display: inline-block;
 }
 
-.head p{
+.phone{
+	margin-top: 10px;
+	padding-left: 4px;
+	display: inline-block;
+	letter-spacing: 0.4px;
 	font-size: 18px;
 	font-family: Arial;
 	color: #5e696d;
 }
 
-.phone{
-	width: 266px;
-	padding-top: 4px;
-	padding-left: 5px;
-	display: block;
-	display: inline-block;
-	letter-spacing: 0.4px;
-}
-
 .auth{
 	width: 495px;
 	height: 25px;
-	padding-top: -5px;
-	margin-left: 14px;
+	margin-top: 5px;
+	margin-left: 16px;
 	border-radius: 3px;
 	display: inline-block;
 	position: absolute;
@@ -52,13 +47,6 @@ header{
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.45);
 }
 
-.login{
-	width: 113px;
-	height: 18px;
-	padding-left: 5px;
-	margin-left: 4px;
-}
-
 .auth img{
 	padding-left: 7px;
 	padding-top: 5px;
@@ -66,15 +54,21 @@ header{
 }
 
 .head form{
-	width: 250px;
 	margin-left: 18px;
 	padding-top: 2px;
+	position: relative;
 }
 
-.login{
+.head form input{
+	display: inline-block;
 	font-size: 10px;
 	letter-spacing: 1.5px;
+	width: 113px;
+	height: 18px;
+	padding-left: 5px;
+	margin-left: 4px;
 }
+
 .enter{
 	padding-bottom: 2px;
 	padding-right: 3px;
@@ -83,7 +77,8 @@ header{
 	border-right: 1px solid white;
 	line-height: 9px;
 	display: inline-block;
-	position: absolute;
+	position: relative;
+	border: 1px black solid;
 }
 
 .enter a, .reg a{
@@ -98,9 +93,10 @@ header{
 	padding-right: 3px;
 	margin-top: -13px;
 	margin-left: 283px;
-	line-height: 10px;
+	line-height: 9px;
 	display: inline-block;
-	position: absolute;
+	position: relative;
+	border: 1px black solid;
 }
 
 .forget{
@@ -109,7 +105,7 @@ header{
 	margin-left: 367px;
 	line-height: 10px;
 	display: inline-block;
-	position: absolute;
+	position: relative;
 }
 
 .forget a{
@@ -123,16 +119,15 @@ header{
 .ico{
 	height: 20px;
 	width: 75px;
-	margin-left: 512px;
-	margin-top: -20px;
-	position: absolute;
+	margin-left: 826px;
+	margin-top: -22px;
 	border: 1px #c1c8cb solid;
 	border-radius: 10px;
 }
 
 .icoimg{
 	margin-left: 2px;
-	margin-top: -2px;
+	margin-top: 1px;
 }
 
 .icoimg img{
@@ -201,20 +196,19 @@ nav li a{
 	margin-top: -27px;
 	margin-left: 697px;
 	float: left;
-
 }
 
 .cash p{
 	padding-left: 13px;
 	display: inline-block;
 	font-size: 12px;
-
-
+	color: #929b9f;
+	font-family: Arial;
 }
 
 .cash a{
 	display: inline-block;
-	font-size: 13px;
+	font-size: 12px;
 	text-decoration: none;
 	color: #0d5383;
 }
@@ -234,10 +228,9 @@ nav li a{
 	height: 132px;
 	width: 909px;
 	margin: 0 auto;
-	margin-top: 9px;
+	margin-top: 15px;
 	padding-left: 10px;
 	clear: both;
-
 }
 
 .leftform{
@@ -284,6 +277,8 @@ nav li a{
 	height: 630px;
 	margin: 0 auto;
 	margin-top: 18px;
+	clear: both;
+	overflow: hidden;
 }
 
 .left{
@@ -297,14 +292,14 @@ nav li a{
 	height: 24px;
 	border: 1px solid #8b979c;
 	border-radius: 18px;
-	margin-top: 5px;
+	margin-top: 4px;
 	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.33);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.33);
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.33);
 }
 
 .cat img{
-	padding-top: 2px;
+	padding-top: 1px;
 	padding-left: 2px;
 }
 
@@ -348,7 +343,7 @@ nav li a{
 .llist1 a, .llist2 a, .llist3  a{
 	text-decoration: none;
 	color: #465961;
-	font-size: 14px;
+	font-size: 13px;
 	font-family: Arial;
 	letter-spacing: 0.1px;
 }
@@ -380,7 +375,7 @@ nav li a{
 	height: 26px;
 	border: 1px solid #8b979c;
 	border-radius: 18px;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 .disk img{
@@ -407,7 +402,7 @@ nav li a{
 	height: 26px;
 	border: 1px solid #8b979c;
 	border-radius: 18px;
-	margin-top: 5px;
+	margin-top: 2px;
 }
 
 .bolt img{
@@ -433,7 +428,7 @@ nav li a{
 
 .center{
 	width: 526px;
-	height: 630px;
+	height: 628px;
 	float: left;
 	margin-left: 8px;
 	border-radius: 2px;
@@ -456,14 +451,6 @@ nav li a{
 	display: block;
     margin: 0 auto;
     margin-top: 5px;
-}
-
-.item1{
-	width: 136px;
-	height: 180px;
-	float: left;
-	margin-left: 22px;
-	margin-top: 16px;
 }
 
 .item1 p, .item2 p, .item3, .item4 p, .item5 p, .item6 p, .item7 p, .item8 p, .item9 p{
@@ -496,72 +483,58 @@ nav li a{
 	color: #206988;
 }
 
-.item2{
+.item1 , .item2 , .item3 , .item4 , .item5 , .item6 , .item7 , .item8 , .item9{
 	width: 136px;
 	height: 180px;
 	float: left;
+} 
+
+.item1{
+	margin-left: 22px;
+	margin-top: 16px;
+}
+
+.item2{
 	margin-left: 31px;
 	margin-top: 16px
 }
 
 .item3{
-	width: 136px;
-	height: 180px;
-	float: left;
 	margin-left: 32px;
 	margin-top: 16px
 }
 
 .item4{
-	width: 136px;
-	height: 180px;
-	float: left;
 	margin-left: 22px;
 	margin-top: 20px
 }
 
 .item5{
-	width: 136px;
-	height: 180px;
-	float: left;
 	margin-left: 31px;
 	margin-top: 20px
 }
 
 .item6{
-	width: 136px;
-	height: 180px;
-	float: left;
 	margin-left: 32px;
 	margin-top: 20px
 }
 
 .item7{
-	width: 136px;
-	height: 180px;
-	float: left;
 	margin-left: 22px;
 	margin-top: 25px
 }
 
 .item8{
-	width: 136px;
-	height: 180px;
-	float: left;
 	margin-left: 31px;
 	margin-top: 25px
 }
 
 .item9{
-	width: 136px;
-	height: 180px;
-	float: left;
 	margin-left: 32px;
 	margin-top: 25px
 }
 
 /*gallery end*/
-
 
 .right{
 	width: 183px;
@@ -575,7 +548,7 @@ nav li a{
 	height: 25px;
 	border: 1px solid #8b979c;
 	border-radius: 18px;
-	margin-top: 3px;
+	margin-top: 2px;
 	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.33);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.33);
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.33);
@@ -680,8 +653,8 @@ nav li a{
 }
 
 .subbut{
-	margin-left: 4px;
-	margin-top: 23px;
+	margin-left: 5px;
+	margin-top: 19px;
 	border: 0px;
 	border-radius: 11px;
 	width: 80px;
@@ -720,7 +693,7 @@ nav li a{
 
 footer{
 	margin: 0 auto;
-	margin-top: 25px;
+	margin-top: 23px;
 	width: 909px;
 	height: 100px;
 	background: #213a4d;
