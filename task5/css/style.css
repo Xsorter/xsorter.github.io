@@ -30,7 +30,7 @@ header{
 }
 
 .auth{
-	width: 495px;
+	width: 494px;
 	height: 25px;
 	margin-top: 5px;
 	margin-left: 16px;
@@ -63,49 +63,59 @@ header{
 	display: inline-block;
 	font-size: 10px;
 	letter-spacing: 1.5px;
-	width: 113px;
-	height: 18px;
+	width: 105px;
+	height: 10px;
 	padding-left: 5px;
 	margin-left: 4px;
 }
 
-.enter{
-	padding-bottom: 2px;
-	padding-right: 3px;
-	margin-top: -13px;
-	margin-left: 250px;
-	border-right: 1px solid white;
-	line-height: 9px;
-	display: inline-block;
+.rel{
+	margin-top: -18px;
+	margin-left: 4px;
+	float: right;
+	width: 230px;
+	height: 22px;
 	position: relative;
-	border: 1px black solid;
+}
+
+.enter{
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-right: 4px;
+	margin-top: -12px;
+	border-right: 1px solid white;
+	line-height: 5px;
+	display: inline-block;
 }
 
 .enter a, .reg a{
 	font-size: 10px;
-	letter-spacing: 0.7px;
+	letter-spacing: 0.5px;
 	text-decoration: none;
 	color: white;
 	font-family: Arial;
 }
 
+.enter a:hover, .reg a:hover, .forget a:hover{
+	color: #52abcb;
+	
+}
+
 .reg{
+	padding-top: 0px;
+	padding-bottom: 5px;
 	padding-right: 3px;
-	margin-top: -13px;
-	margin-left: 283px;
-	line-height: 9px;
+	margin-top: -12px;
+	line-height: 5px;
 	display: inline-block;
-	position: relative;
-	border: 1px black solid;
 }
 
 .forget{
 	padding-right: 3px;
-	margin-top: -13px;
-	margin-left: 367px;
+	margin-top: -14px;
+	margin-left: 15px;
 	line-height: 10px;
 	display: inline-block;
-	position: relative;
 }
 
 .forget a{
@@ -127,7 +137,7 @@ header{
 
 .icoimg{
 	margin-left: 2px;
-	margin-top: 1px;
+	margin-top: 2px;
 }
 
 .icoimg img{
@@ -141,7 +151,7 @@ header{
 nav{
 	width: 909px;
 	height: 32px;
-	margin-top: 7px;
+	margin-top: 4px;
 	border-radius: 5px;
 	border: 1px #0a1030 solid;
 	background: #4d5663;
@@ -331,7 +341,7 @@ nav li a{
 	color: #0c3256;
 	font-family: Arial;
 	font-size: 13px;
-	margin-top: -16px;
+	margin-top: -20px;
 	margin-left: 30px;
 	position: absolute;
 }
@@ -387,7 +397,7 @@ nav li a{
 	color: #0c3256;
 	font-family: Arial;
 	font-size: 13px;
-	margin-top: -17px;
+	margin-top: -20px;
 	margin-left: 30px;
 	position: absolute;
 }
@@ -414,7 +424,7 @@ nav li a{
 	color: #0c3256;
 	font-family: Arial;
 	font-size: 13px;
-	margin-top: -17px;
+	margin-top: -20px;
 	margin-left: 30px;
 	position: absolute;
 }
@@ -483,6 +493,10 @@ nav li a{
 	color: #206988;
 }
 
+.item1 a:hover, .item2 a:hover, .item3 a:hover, .item4 a:hover, .item5 a:hover, .item6 a:hover, .item7 a:hover, .item8 a:hover, .item9 a:hover{
+	color: #52abcb;
+}
+
 .item1 , .item2 , .item3 , .item4 , .item5 , .item6 , .item7 , .item8 , .item9{
 	width: 136px;
 	height: 180px;
@@ -544,7 +558,7 @@ nav li a{
 }
 
 .brand{
-	width: 182px;
+	width: 180px;
 	height: 25px;
 	border: 1px solid #8b979c;
 	border-radius: 18px;
@@ -587,7 +601,7 @@ nav li a{
 	color: #0c3256;
 	font-size: 13px;
 	font-family: Arial;
-	margin-top: -18px;
+	margin-top: -20px;
 	margin-left: 28px;
 	position: absolute;
 }
@@ -629,7 +643,7 @@ nav li a{
 	color: #0c3256;
 	font-family: Arial;
 	font-size: 13px;
-	margin-top: -18px;
+	margin-top: -20px;
 	margin-left: 28px;
 	position: absolute;
 }
