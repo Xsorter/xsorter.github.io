@@ -80,13 +80,14 @@ header{
 }
 
 .enter{
+	margin-top: 6px;
+	margin-left: 3px;
 	padding-top: 0px;
 	padding-bottom: 5px;
 	padding-right: 4px;
-	margin-top: -12px;
 	border-right: 1px solid white;
 	line-height: 5px;
-	display: inline-block;
+	float: left;
 }
 
 .enter a, .reg a{
@@ -103,25 +104,28 @@ header{
 }
 
 .reg{
+	margin-top: 6px;
+	margin-left: 5px;
 	padding-top: 0px;
 	padding-bottom: 5px;
 	padding-right: 3px;
-	margin-top: -12px;
 	line-height: 5px;
-	display: inline-block;
+	float: left;
 }
 
 .forget{
-	padding-right: 3px;
-	margin-top: -14px;
-	margin-left: 15px;
-	line-height: 10px;
-	display: inline-block;
+	margin-top: 6px; 
+	margin-right: 7px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-right: 0px;
+	line-height: 5px;
+	float: right;
 }
 
 .forget a{
 	font-size: 10px;
-	letter-spacing: 1.5px;
+	letter-spacing: 1.0px;
 	text-decoration: underline;
 	color: #bfbfbf;
 	font-family: Arial;
@@ -141,12 +145,61 @@ header{
 	margin-top: 2px;
 }
 
+.icoimg a:nth-child(1){
+	background: url(../img/icohome.png)no-repeat; 
+    display: inline-block; 
+    width: 12px; 
+    height: 11px;
+    text-decoration: none;
+    margin-left: 6px;
+    margin-bottom: 2px;
+
+}
+
+.icoimg a:nth-child(1):hover{
+	background: url(../img/icomap.png)no-repeat; 
+	transition: 0.2s;
+}
+
+.icoimg a:nth-child(2){
+	background: url(../img/icomap.png)no-repeat; 
+    display: inline-block; 
+    width: 12px; 
+    height: 11px; 
+    text-decoration: none;
+    margin-left: 6px;
+    margin-bottom: 1px;
+}
+
+.icoimg a:nth-child(2):hover{
+	background: url(../img/icoletter.png)no-repeat; 
+	transition: 0.2s;
+}
+
+.icoimg a:nth-child(3){
+	background: url(../img/icoletter.png)no-repeat; 
+    display: inline-block; 
+    width: 12px; 
+    height: 11px; 
+    text-decoration: none;
+    margin-left: 6px;
+    margin-top: 4px; 
+    margin-bottom: 1px;
+}
+
+.icoimg a:nth-child(3):hover{
+	background: url(../img/icomap.png)no-repeat; 
+	transition: 0.2s;
+}
+
 .icoimg img{
 	padding-left: 5px;
 }
 
 .headimage{
 	margin-top: 14px;
+	clear: both;
+	overflow: hidden;
 }
 
 nav{
@@ -318,10 +371,9 @@ nav li a{
 	color: #0c3256;
 	font-family: Arial;
 	font-size: 13px;
-	display: inline;
 	position: absolute;
-	margin-top: 6px;
-	margin-left: 4px;
+	margin-top: -19px;
+	margin-left: 27px;
 
 }
 
@@ -578,10 +630,9 @@ nav li a{
 	color: #0c3256;
 	font-size: 13px;
 	font-family: Arial;
-	display: inline;
 	position: absolute;
-	margin-top: 6px;
-	margin-left: 4px;
+	margin-top: -19px;
+	margin-left: 30px;
 }
 
 .tiresr{
