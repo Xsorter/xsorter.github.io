@@ -365,13 +365,13 @@ header{
 }
 
 .box-par1{
-	width: 100%;
-	max-width: 320px;
+	width: 90%;
+	max-width: 360px;
 }
 
 .box6{
-	width: 100%;
-	max-width: 320px;
+	width: 90%;
+	max-width: 310px;
 	height: 80%;
 	margin-left: 15%;
 }
@@ -380,7 +380,7 @@ header{
 	padding-top: 40px;
 	padding-left: 15px;
 	width: 100%;
-	margin-left: 15%;
+	margin-left: 5%;
 	margin-top: 0px; 
 	height: auto;
 
@@ -427,7 +427,7 @@ header{
 .item22{
 
 	max-width: 480px;
-	width: 95%;
+	width: 90%;
 	margin-left: 5%;
 	margin-top: 35px;
 	height: 40%;
@@ -469,10 +469,10 @@ header{
 }
 
 .box7{
-	width: 100%;
-	max-width: 360px;
+	width: 90%;
+	max-width: 400px;
 	height: 100%;
-	margin-left: 10%;
+	margin-left: 0%;
 }
 
 
