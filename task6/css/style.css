@@ -9,7 +9,8 @@ header{
 
 .head{
 	height: 280px;
-	width: 970px;
+	width: 100%;
+	max-width: 970px;
 	margin: 0 auto;
 }
 
@@ -89,11 +90,33 @@ header{
 	border: 1px rgba(28,37,42,0.7) solid;
 }
 
+.home-mobile-menu{
+	margin-top: 130px;
+	position: absolute;
+	margin-left: 45%;
+	display: none;
+	border-bottom: 2px #edbfff solid;
+}
+
+.home-mobile-menu a{
+	padding-right: 5px;
+	padding-left: 5px;
+	position: absolute;
+	font-family: 'League Gothic';
+	font-size: 24px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.41);
+	letter-spacing: 1px;
+	letter-spacing: 1.3px;
+	border-bottom: 2px #edbfff solid;
+}
+
+
+
 .menu-mobile{
 	border-radius: 10px;
-	
-	
-
 }
 
 .home-item{
@@ -126,9 +149,6 @@ header{
 }
 
 
-
-
-
 .menu-mobile li a{
 	font-family: 'League Gothic';
 	font-size: 24px;
@@ -156,14 +176,16 @@ header{
 }
 
 .text{
-	width: 970px;
+	width: 100%;
+	max-width: 970px;
 	height: 200px;
 	margin: 0 auto;
 	margin-top: 100px;
 }
 
 .left{
-	width: 530px;
+	width: 100%;
+	max-width: 530px;
 }
 
 .first{
@@ -208,7 +230,8 @@ header{
 
 
 .item{
-	width: 290px;
+	width: 100%;
+	max-width: 290px;
 	margin-left: 30px;
 	margin-top: 75px;
 	height: 200px;
@@ -216,7 +239,8 @@ header{
 }
 
 .item21{
-	width: 450px;
+	width: 100%;
+	max-width: 450px;
 	margin-left: 25px;
 	margin-top: 65px;
 	height: 385px;
@@ -225,7 +249,8 @@ header{
 }
 
 .item22{
-	width: 450px;
+	width: 100%;
+	max-width: 450px;
 	margin-left: 25px;
 	margin-top: 65px;
 	height: 385px;
@@ -233,7 +258,8 @@ header{
 }
 
 .item3{
-	width: 280px;
+	width: 100%;
+	max-width: 280px;
 	margin-left: 30px;
 	margin-top: 90px;
 	height: 210px;
@@ -252,26 +278,30 @@ header{
 }
 
 .box{
-	width: 970px;
+	width: 100%;
+	max-width: 970px;
 	height: 340px;
 	margin: 0 auto;
 
 }
 
 .box2{
-	width: 970px;
+	width: 100%;
+	max-width: 970px;
 	height: 484px;
 	margin: 0 auto;
 }
 
 .box3{
-	width: 970px;
+	width: 100%;
+	max-width: 970px;
 	height: 395px;
 	margin: 0 auto;
 }
 
 .box4{
-	width: 970px;
+	width: 100%;
+	max-width: 970px;
 	height: 115px;
 	margin: 0 auto;
 }
@@ -369,6 +399,17 @@ header{
 	display: none;
 }
 
+.par2-320{
+	margin-top: 10px;
+	float:left;
+	margin-left: 35px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #ffffff;
+	text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.41);
+	display: none;
+}
+
 
 
 .par3{
@@ -403,7 +444,8 @@ header{
 
 
 .box6{
-	width: 345px;
+	width: 100%;
+	max-width: 345px;
 	height: 200px;
 	margin-left: 65px;
 	margin-top: 65px;
@@ -414,7 +456,8 @@ header{
 }
 
 .box7{
-	width: 345px;
+	width: 100%;
+	max-width: 345px;
 	height: 200px;
 	margin-left: 0px;
 	margin-top: 65px;
@@ -443,6 +486,14 @@ header{
 	display: none;
 }
 
+.par5-320{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #454545;
+	line-height: 25px;
+	display: none;
+}
+
 
 .par6{
 	font-family: 'League Gothic';
@@ -453,7 +504,8 @@ header{
 
 
 .box-par1{
-	width: 450px;
+	width: 100%;
+	max-width: 450px;
 	height: 48px;
 	margin-top: 15px;
 	float: left;
@@ -472,6 +524,16 @@ header{
 	font-weight: bolder;
 }
 
+.par7-320{
+	padding-left: 60px;
+	margin-top: 5px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #454545;
+	font-weight: bolder;
+	display: none;
+}
+
 .par8{
 	padding-left: 60px;
 	margin-top: 5px;
@@ -481,6 +543,15 @@ header{
 }
 
 .par8-760{
+	padding-left: 60px;
+	margin-top: 5px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #454545;
+	display: none;
+}
+
+.par8-320{
 	padding-left: 60px;
 	margin-top: 5px;
 	font-family: 'Open Sans';
@@ -514,6 +585,12 @@ header{
 	display: none; 
 	margin: 0 auto;
 	margin-top: 40px;
+}
+
+.brand-320{
+	display: none; 
+	margin: 0 auto;
+	margin-top: 50px;
 }
 
 .par11{

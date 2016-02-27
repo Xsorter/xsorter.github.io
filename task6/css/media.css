@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px)  {
 
 header{
 	height: 800px;
@@ -9,12 +9,14 @@ header{
 }
 
 .head{
-	width: 750px;
+	width: 100%;
+	max-width: 768px;
 }
 
 .menu{
-	margin-right: 220px;
-	padding-top: 142px;
+	margin-right: 0px;
+	padding-top: 40px;
+	float: left;
 }
 
 .menu li{
@@ -55,7 +57,8 @@ header{
 	overflow: hidden;
 }
 .text{
-	width: 750px;
+	width: 100%;
+	max-width: 768px;
 	margin-top: 150px;
 }
 .left{
@@ -90,22 +93,26 @@ header{
 }
 
 .box, .box2, .box3, .box4{
-	width: 750px;
+	width: 100%;
+	max-width: 768px;
 
 }
 
 .box6{
-	width: 250px;
+	width: 100%;
+	max-width: 250px;
 	margin-top: 30px;
 }
 
 .box7{
-	width: 330px;
+	width: 100%;
+	max-width: 330px;
 	margin-top: 30px;
 }
 
 .box-par1{
-	width: 330px;
+	width: 100%;
+	max-width: 330px;
 }
 
 .item{
@@ -113,7 +120,8 @@ header{
 }
 
 .item21{
-	width: 340px;
+	width: 100%;
+	max-width: 340px;
 	margin-left: 25px;
 	margin-top: 65px;
 	height: 330px;
@@ -122,7 +130,8 @@ header{
 }
 
 .item22{
-	width: 340px;
+	width: 100%;
+	max-width: 340px;
 	margin-left: 25px;
 	margin-top: 65px;
 	height: 330px;
@@ -130,7 +139,8 @@ header{
 }
 
 .item3{
-	width: 220px;
+	width: 100%;
+	max-width: 220px;
 	margin-left: 20px;
 	margin-top: 90px;
 	height: 210px;
@@ -313,17 +323,20 @@ header{
 
 .head{
 	max-width: 480px;
-	width: 90%;
+	width: 100%;
 	height: 190px;
 	display: flex;
 }
 
-.menu{
-	display: none; 
-}
 
 .menu-box-mobile{
 	display: block;
+}
+
+
+
+.menu{
+	display: none;
 }
 
 .stripe{
@@ -351,18 +364,26 @@ header{
 
 }
 
+.box-par1{
+	width: 100%;
+	max-width: 320px;
+}
+
 .box6{
-	width: 75%;
+	width: 100%;
+	max-width: 320px;
 	height: 80%;
+	margin-left: 15%;
 }
 
 .item{
 	padding-top: 40px;
 	padding-left: 15px;
-	width: 90%;
-	margin-left: 0px;
+	width: 100%;
+	margin-left: 15%;
 	margin-top: 0px; 
 	height: auto;
+
 }
 
 .par2{
@@ -389,9 +410,9 @@ header{
 }
 
 .item21{
-	width: 100%;
+	width: 95%;
 	max-width: 480px;
-	margin-left: 0px;
+	margin-left: 2%;
 	margin-top: 65px;
 	height: 330px;
 	background: url(../img/background-test480.png)  no-repeat;
@@ -404,8 +425,10 @@ header{
 
 
 .item22{
-	width: 90%;
-	margin-left: 3%;
+
+	max-width: 480px;
+	width: 95%;
+	margin-left: 5%;
 	margin-top: 35px;
 	height: 40%;
 	float: left;
@@ -433,7 +456,8 @@ header{
 
 .item3{
 	width: 90%;
-	margin-left: 20px;
+	max-width: 480px;
+	margin-left: 5%;
 	margin-top: 70px;
 	height: auto;
 	float: left;
@@ -445,12 +469,16 @@ header{
 }
 
 .box7{
-	width: 90%;
+	width: 100%;
+	max-width: 360px;
 	height: 100%;
+	margin-left: 10%;
 }
+
 
 .cont3{
 	height: 670px;
+	
 }
 
 .par13-760{
@@ -574,14 +602,177 @@ header{
 	height: 515px;
 }
 
-.logo{
-	margin-left: 0 auto;
-	margin-left: 26%;
+.home-mobile-menu{
+	display: block;
+}
+
+.menu-box-mobile{
+	display: none;
+}
+
+.menu2{
+	display: none;
+}
+
+header{
+	height: 520px;
+}
+
+.stripe{
+	height: 250px;
+	background: url(../img/slider320.png) center center no-repeat;
 }
 
 .head{
-	width: 320px;
-	background: blue;
+	width: 90%;
+	max-width: 320px;
 }
+
+.item{
+	margin-left: 0;
+
+}
+
+.text{
+	max-width: 320px;
+	width: 98%;
+	margin-top: 90px;
+}
+
+.box, .box2, .box3, .box4{
+	max-width: 320px;
+	width: 98%;
+
+}
+
+.box6{
+	width: 80%;
+	height: 80%;
+	max-width: 200px;
+	margin-left: 20%;
+}
+
+.box7{
+	max-width: 300px;
+	margin-left: 0;
+	
+}
+
+
+.par2-480{
+	display: none;
+}
+
+.par2-320{
+	display: block;
+}
+
+.item21{
+	width: 95%;
+	max-width: 320px;
+	margin-left: 3%;
+	margin-top: 65px;
+	height: 330px;
+	background: url(../img/background-test320.png)  no-repeat;
+	float: left;
+}
+
+.item22{
+	width: 92%;
+	max-width: 320px;
+	margin-left: 2%;
+	margin-top: 35px;
+	height: 40%;
+	float: left;
+}
+
+.par5{
+	display: none;
+}
+
+.par5-320{
+	display: inline-block;
+}
+
+.par7{
+	display: none;
+}
+
+.par7-320{
+	display: block;
+}
+
+.par8-760{
+	display: none;
+}
+
+.par8-320{
+	display: block;
+}
+
+.par8-1{
+	float: left;
+	margin-left: 70%;
+	font-family: 'League Gothic';
+	font-size: 16px;
+	margin-top: 45px;
+	color: #454545;
+	display: block;
+}
+
+.cont2{
+	height: 1200px;
+}
+
+.cont3{
+	display: none;
+}
+
+.brand-480{
+	display: none;
+}
+
+.brand-320{
+	display: block;
+}
+
+.copyright{
+	display: block;
+	padding-right: 0px;
+	font-family: 'Open Sans';
+	margin-top: 23%;
+	margin-right: 30%;
+	font-size: 12px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
