@@ -233,7 +233,7 @@ header{
 
 .logo{
 	margin-left: 0 auto;
-	margin-left: 35%;
+	margin-left: 33%;
 }
 
 .head{
@@ -254,13 +254,15 @@ header{
 	height: 305px;
 	background: url(../img/slider480.png) center center no-repeat;
 }
+
+
 .cont{
-	height: 595px;
+	height: 650px;
 }
 
 .text{
 	max-width: 480px;
-	width: 90%;
+	width: 98%;
 	margin-top: 90px;
 }
 
@@ -269,7 +271,7 @@ header{
 }
 .box, .box2, .box3, .box4{
 	max-width: 480px;
-	width: 90%;
+	width: 98%;
 
 }
 
@@ -307,7 +309,7 @@ header{
 }
 
 .item21{
-	width: 92%;
+	width: 100%;
 	margin-left: 10px;
 	margin-top: 65px;
 	height: 330px;
@@ -379,7 +381,7 @@ header{
 	padding-right: 0px;
 	font-family: 'Open Sans';
 	margin-top: 12%;
-	margin-right: 40%;
+	margin-right: 33%;
 	font-size: 12px;
 	color: white;
 }
@@ -394,7 +396,7 @@ header{
 
 
 .menu2 li{
-	margin-right: 5%;
+	margin-right: 4%;
 	padding-right: 5px;
 	padding-left: 5px;
 	padding-bottom: 2px;
