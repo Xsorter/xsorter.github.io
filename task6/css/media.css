@@ -370,7 +370,7 @@ header{
 }
 
 .box6{
-	width: 90%;
+	width: 80%;
 	max-width: 310px;
 	height: 80%;
 	margin-left: 15%;
@@ -378,9 +378,8 @@ header{
 
 .item{
 	padding-top: 40px;
-	padding-left: 15px;
 	width: 100%;
-	margin-left: 5%;
+	margin-left: 12%;
 	margin-top: 0px; 
 	height: auto;
 
