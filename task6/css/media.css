@@ -382,8 +382,10 @@ header{
 }
 
 .par5{
+	margin-top: 10px;
 	display: block;
-	font-size: 15px;
+	font-size: 14px;
+	line-height: 18px;
 }
 
 .item21{
@@ -526,7 +528,7 @@ header{
 
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 390px){
 
 .menu2{
 	clear: both;
