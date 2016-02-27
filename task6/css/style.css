@@ -90,7 +90,6 @@ header{
 .text{
 	width: 970px;
 	height: 200px;
-	
 	margin: 0 auto;
 	margin-top: 100px;
 }
@@ -116,6 +115,29 @@ header{
 	font-family: 'Open Sans';
 	color: #ffffff;
 }
+
+.first760{
+	font-size: 60px;
+	font-family: 'League Gothic';
+	color: #fefefe;
+	display: none;
+}
+
+.sec760{
+	font-size: 32px;
+	font-family: 'League Gothic';
+	color: #edbfff;
+	display: none;
+}
+
+.th760{
+	font-size: 18px;
+	font-family: 'Open Sans';
+	color: #ffffff;
+	display: none;
+}
+
+
 
 .item{
 	width: 290px;
@@ -257,6 +279,19 @@ header{
 	text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.41);
 }
 
+.par2-760{
+	margin-top: 10px;
+	float:left;
+	margin-left: 35px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #ffffff;
+	text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.41);
+	display: none;
+}
+
+
+
 .par3{
 	margin-top: 35px;
 	margin-right: 30px;
@@ -321,6 +356,15 @@ header{
 	line-height: 25px;
 }
 
+.par5-760{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #454545;
+	line-height: 25px;
+	display: none;
+}
+
+
 .par6{
 	font-family: 'League Gothic';
 	font-size: 30px;
@@ -357,8 +401,32 @@ header{
 	color: #454545;
 }
 
+.par8-760{
+	padding-left: 60px;
+	margin-top: 5px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #454545;
+	display: none;
+}
+
+.par8-1{
+	float: right;
+	font-family: 'League Gothic';
+	font-size: 16px;
+	margin-top: 45px;
+	color: #454545;
+	display: none;
+}
+
 .brand{
 	display: block;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+
+.brand-760{
+	display: none; 
 	padding-top: 15px;
 	margin: 0 auto;
 }
@@ -368,6 +436,14 @@ header{
 	font-family: 'League Gothic';
 	color: #454545;
 }
+
+.par11-760{
+	font-size: 48px;
+	font-family: 'League Gothic';
+	color: #454545;
+	display: none;
+}
+
 
 .par12{
 	font-size: 16px;
@@ -382,6 +458,15 @@ header{
 	font-family: 'Open Sans';
 	color: #808080;
 	line-height: 18px;
+}
+
+.par13-760{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	color: #808080;
+	line-height: 18px;
+	display: none;
 }
 
 footer{
