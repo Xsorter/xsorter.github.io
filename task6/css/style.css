@@ -18,6 +18,7 @@ header{
 	margin-top: 52px;
 }
 
+
 .menu{
 	padding-top: 76px;
 }
@@ -76,6 +77,74 @@ header{
 	letter-spacing: 1px;
 	letter-spacing: 1.3px;
 }
+
+.menu-box-mobile{
+	display: none;
+	margin-top: 130px;
+    height: 258px;
+	width: 54%;
+	margin-left: 25%;
+	
+	position: absolute;
+	border-radius: 7px;
+	border: 1px rgba(28,37,42,0.7) solid;
+}
+
+.menu-mobile{
+	border-radius: 10px;
+	
+	
+
+}
+
+.home-item{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+.ipsum-item{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+.menu-mobile li{
+	background: rgba(72,59,78,0.7);
+	line-height: 37px;
+	border-top: 1px #503d58 solid; 
+	border-bottom: 1px #35273d solid;
+	padding-bottom: 3px;
+	padding-left: 35%;
+	padding-right: 35%;	
+}
+
+.menu-mobile li:hover{
+	transition: 0.5s;
+	background: rgba(45,36,50,0.7);
+	padding-left: 0%;
+	padding-right: 0%;	
+}
+
+
+
+
+
+.menu-mobile li a{
+	font-family: 'League Gothic';
+	font-size: 24px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.41);
+	letter-spacing: 1px;
+	letter-spacing: 1.3px;
+	border-bottom: 2px #edbfff solid;
+	width: auto;
+	text-align: center;
+}
+
+
 
 
 
@@ -290,6 +359,17 @@ header{
 	display: none;
 }
 
+.par2-480{
+	margin-top: 10px;
+	float:left;
+	margin-left: 35px;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: #ffffff;
+	text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.41);
+	display: none;
+}
+
 
 
 .par3{
@@ -431,6 +511,12 @@ header{
 	margin: 0 auto;
 }
 
+.brand-480{
+	display: none; 
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
 .par11{
 	font-size: 48px;
 	font-family: 'League Gothic';
@@ -466,6 +552,15 @@ header{
 	font-family: 'Open Sans';
 	color: #808080;
 	line-height: 18px;
+	display: none;
+}
+
+.par13-480{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	color: #808080;
+	line-height: 16px;
 	display: none;
 }
 

@@ -225,7 +225,7 @@ footer{
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
 
 header{
 	height: 550px;
@@ -238,13 +238,202 @@ header{
 
 .head{
 	width: 480px;
-	background: red;
+	height: 190px;
+}
+
+.menu{
+	display: none; 
+}
+
+.menu-box-mobile{
+	display: block;
+}
+
+.stripe{
+	height: 305px;
+	background: url(../img/slider480.png) center center no-repeat;
+}
+.cont{
+	height: 595px;
+}
+
+.text{
+	width: 480px;
+	margin-top: 90px;
+}
+
+.th760{
+	display: none;
+}
+.box, .box2, .box3, .box4{
+	width: 480px;
+
+}
+
+.box6{
+	width: 80%;
+}
+
+.item{
+	padding-top: 40px;
+	padding-left: 15px;
+	width: 90%;
+	margin-left: 0px;
+	margin-top: 0px; 
+	height: auto;
+}
+
+.par2{
+	display: none;
+}
+
+.par2-760{
+	display: none;
+}
+
+.par2-480{
+	display: inline-block;
+}
+
+.par5-760{
+	display: none;
+}
+
+.par5{
+	display: block;
+}
+
+.item21{
+	width: 92%;
+	margin-left: 10px;
+	margin-top: 65px;
+	height: 330px;
+	background: url(../img/background-test480.png) center center no-repeat;
+	float: left;
+}
+
+.par4 span{
+	display: inline-block;
+}
+
+
+.item22{
+	width: 92%;
+	margin-left: 40px;
+	margin-top: 35px;
+	height: 280px;
+	float: left;
+}
+
+.box2{
+	height: 780px;
+	margin: 0 auto;
+}
+
+.cont2{
+	height: 1020px;
+}
+.brand{
+	display: none;
+}
+
+.brand-760{
+	display: none;
+}
+
+.brand-480{
+	display: block;
+}
+
+.item3{
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 70px;
+	height: auto;
+	float: left;
+	
+}
+
+.box3{
+	height: 670px;
+}
+
+.cont3{
+	height: 670px;
+}
+
+.par13-760{
+	display: none;
+}
+
+.par13-480{
+	display: block;
+	line-height: 20px;
+}
+
+.copyright{
+	display: block;
+	padding-right: 0px;
+	font-family: 'Open Sans';
+	margin-top: 12%;
+	margin-right: 40%;
+	font-size: 12px;
+	color: white;
+}
+
+
+.menu2{
+	clear: both;
+	overflow: hidden;
+	padding-top: 45px;
+	margin: 0 auto;
+}
+
+
+.menu2 li{
+	margin-right: 5%;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	float: left;
+}
+
+.menu2 li a{
+	font-family: 'League Gothic';
+	font-size: 20px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 2px 0px rgba(0, 0, 0, 0.41);
+	letter-spacing: 1px;
+	letter-spacing: 1.3px;
+}
 }
 
 
 
-}
-@media screen and (max-width: 580px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px){
 
 	header{
 	height: 515px;
