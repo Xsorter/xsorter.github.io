@@ -225,6 +225,77 @@ footer{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 480px){
 
 header{
@@ -232,14 +303,19 @@ header{
 }
 
 .logo{
-	margin-left: 0 auto;
-	margin-left: 33%;
+	margin: 0 auto;
+	margin-left: 30%;
+	margin: auto;
+	margin-top: 40px;
+	
+	
 }
 
 .head{
 	max-width: 480px;
 	width: 90%;
 	height: 190px;
+	display: flex;
 }
 
 .menu{
@@ -276,7 +352,8 @@ header{
 }
 
 .box6{
-	width: 80%;
+	width: 75%;
+	height: 80%;
 }
 
 .item{
@@ -306,14 +383,16 @@ header{
 
 .par5{
 	display: block;
+	font-size: 15px;
 }
 
 .item21{
 	width: 100%;
-	margin-left: 10px;
+	max-width: 480px;
+	margin-left: 0px;
 	margin-top: 65px;
 	height: 330px;
-	background: url(../img/background-test480.png) center center no-repeat;
+	background: url(../img/background-test480.png)  no-repeat;
 	float: left;
 }
 
@@ -323,10 +402,10 @@ header{
 
 
 .item22{
-	width: 92%;
-	margin-left: 40px;
+	width: 90%;
+	margin-left: 3%;
 	margin-top: 35px;
-	height: 280px;
+	height: 40%;
 	float: left;
 }
 
@@ -363,6 +442,11 @@ header{
 	height: 670px;
 }
 
+.box7{
+	width: 90%;
+	height: 100%;
+}
+
 .cont3{
 	height: 670px;
 }
@@ -392,15 +476,18 @@ header{
 	overflow: hidden;
 	padding-top: 45px;
 	margin: 0 auto;
+	margin-left: 10px;
+	
+
 }
 
 
 .menu2 li{
 	margin-right: 4%;
-	padding-right: 5px;
 	padding-left: 5px;
 	padding-bottom: 2px;
-	float: left;
+	display: inline-block;
+	
 }
 
 .menu2 li a{
@@ -417,6 +504,47 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px){
+
+.menu2{
+	clear: both;
+	overflow: hidden;
+	padding-top: 45px;
+	margin: 0 auto;
+	margin-left: 10px;
+}
+
+
+
+.menu2 li{
+	margin-right: 0;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	display: inline-block;
+}
+}
 
 
 
