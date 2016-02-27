@@ -237,7 +237,8 @@ header{
 }
 
 .head{
-	width: 480px;
+	max-width: 480px;
+	width: 90%;
 	height: 190px;
 }
 
@@ -258,7 +259,8 @@ header{
 }
 
 .text{
-	width: 480px;
+	max-width: 480px;
+	width: 90%;
 	margin-top: 90px;
 }
 
@@ -266,7 +268,8 @@ header{
 	display: none;
 }
 .box, .box2, .box3, .box4{
-	width: 480px;
+	max-width: 480px;
+	width: 90%;
 
 }
 
