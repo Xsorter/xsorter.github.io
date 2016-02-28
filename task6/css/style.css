@@ -1,5 +1,4 @@
-
-
+/*HEADER*/
 header{
 	width: 100%;
 	height: 850px;
@@ -112,9 +111,6 @@ header{
 	letter-spacing: 1.3px;
 	border-bottom: 2px #edbfff solid;
 }
-
-
-
 .menu-mobile{
 	border-radius: 10px;
 }
@@ -124,13 +120,10 @@ header{
 	border-top-right-radius: 5px;
 }
 
-
 .ipsum-item{
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
-
-
 .menu-mobile li{
 	background: rgba(72,59,78,0.7);
 	line-height: 37px;
@@ -148,7 +141,6 @@ header{
 	padding-right: 0%;	
 }
 
-
 .menu-mobile li a{
 	font-family: 'League Gothic';
 	font-size: 24px;
@@ -162,11 +154,10 @@ header{
 	width: auto;
 	text-align: center;
 }
+/*HEADER END*/
 
 
-
-
-
+/*SLIDER+CONTENT*/
 .stripe{
 	width: 100%;
 	height:535px;
@@ -182,7 +173,8 @@ header{
 	margin: 0 auto;
 	margin-top: 100px;
 }
-
+/*SLIDER END*/
+/*CONTENT-1*/
 .left{
 	width: 100%;
 	max-width: 530px;
@@ -226,8 +218,6 @@ header{
 	color: #ffffff;
 	display: none;
 }
-
-
 
 .item{
 	width: 100%;
@@ -306,8 +296,7 @@ header{
 	margin: 0 auto;
 }
 
-
-
+/*CONTENT-2*/
 
 .cont2{
 	width: 100%;
@@ -427,9 +416,9 @@ header{
 	text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
 	text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
 	text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
-
-
 }
+
+/*CONTENT-3*/
 
 .cont3{
 	width: 100%;
@@ -639,6 +628,8 @@ header{
 	line-height: 16px;
 	display: none;
 }
+
+/*FOOTER*/
 
 footer{
 	width: 100%;
