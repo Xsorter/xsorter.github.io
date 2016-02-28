@@ -270,6 +270,7 @@ header{
 	margin-top: 65px;
 	height: 330px;
 	background: url(../img/background-test760.png) center center no-repeat;
+	background-size: 100% 100%;
 	float: left;
 }
 .item22{
@@ -364,10 +365,13 @@ footer{
 
 .item{
 	width: 26%;
+	
+	
+	
 }
 
 .item21{
-	
+	height: 600px;
 	width: 43%;
 	margin-left: 0px;
 	margin-top: 65px;
@@ -399,16 +403,28 @@ footer{
 	height: 450px;
 }
 
+
+
+.cont2{
+	height: 640px;
+}
+
 .box-par1{
 	width: 100%;
 	max-width: 250px;
 	height: auto;
 }
 
+.box2{
+	height: 520px;
+}
+
 .box6{
-	width: 100%;
-	max-width: 200px;
+	height: 400px;
+	width: 70%;
+	
 	margin-top: 30px;
+	margin-left: 50px;
 }
 .box7{
 	width: 100%;
