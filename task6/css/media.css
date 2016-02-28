@@ -1,4 +1,166 @@
 /*MEDIA-768px*/
+@media screen and (max-width: 960px){
+	.item{
+	width: 26%;
+}
+
+.item21{
+	width: 43%;
+	margin-left: 0px;
+	margin-top: 65px;
+	height: 400px;
+	background: url(../img/background-test.png) center center no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+.item22{
+	width: 50%;
+	margin-left: 25px;
+	margin-top: 65px;
+	height: auto;
+	float: left;
+}
+
+.item3{
+	width: 27%;
+	margin-left: 20px;
+	margin-top: 90px;
+	height: 250px;
+	float: left;
+	line-height: 20px;
+}
+
+.box6{
+	width: 80%;
+	margin-top: 30px;
+}
+
+.box7{
+	width: 100%;
+	max-width: 345px;
+	height: 200px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.cont3{
+	height: 410px;
+}
+
+.box3{
+	height: 410px;
+}
+
+.par12{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA-768px*/
 @media screen and (max-width: 768px)  {
 
 
@@ -194,6 +356,88 @@ footer{
 	background: url(../img/foot760.jpg) center center no-repeat;
 }
 }
+
+
+
+/*FIX ~730px*/
+@media screen and (max-width: 730px){
+
+.item{
+	width: 26%;
+}
+
+.item21{
+	
+	width: 43%;
+	margin-left: 0px;
+	margin-top: 65px;
+	height: auto;
+	background: url(../img/background-test760.png) center center no-repeat;
+	background-size: 100% 110%;
+	float: left;
+}
+.item22{
+	
+	width: 45%;
+	margin-left: 25px;
+	margin-top: 65px;
+	height: auto;
+	float: left;
+}
+
+.item3{
+	width: 27%;
+	margin-left: 20px;
+	margin-top: 90px;
+	height: 250px;
+	float: left;
+	line-height: 20px;
+}
+
+.cont{
+
+	height: 450px;
+}
+
+.box-par1{
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+}
+
+.box6{
+	width: 100%;
+	max-width: 200px;
+	margin-top: 30px;
+}
+.box7{
+	width: 100%;
+	max-width: 250px;
+	margin-top: 30px;
+}
+
+.menu{
+	padding-top: 140px;
+	margin-left: 0;
+	position: absolute;
+
+}
+
+.menu li{
+	margin-right: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	display: inline;
+}
+
+
+
+
+
+
+
+
 /*MEDIA-480px*/
 
 @media screen and (max-width: 480px){
