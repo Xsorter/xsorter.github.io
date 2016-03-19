@@ -8,8 +8,7 @@ function testPageGeneration(){
 	body.appendChild(divRow);
 
 	var pTextCenter = document.createElement('p');
-	pTextCenter.classList.add('text-center');
-	pTextCenter.classList.add('block-center');
+	pTextCenter.classList.add('text-center', 'block-center');
 	pTextCenter.innerHTML = 'Тест по программированию';
 	divRow.appendChild(pTextCenter);
 
@@ -162,3 +161,5 @@ function testPageGeneration(){
 }
 
 testPageGeneration();
+
+
