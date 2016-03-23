@@ -1,4 +1,11 @@
 function setTimer(){
+
+//create pause button
+var buttonPause = document.createElement('button');
+buttonPause.classList.add('btn', 'btn-warning', 'btn-custom');
+buttonPause.setAttribute('type', 'button');
+buttonPause.innerHTML = 'Пауза/Старт';
+
 //set variables
 var dom = {
 	id: function(elm){
@@ -6,13 +13,8 @@ var dom = {
 	}
 };
 
-
 var buttonStart = dom.id('btnStart');
 var buttonStop = dom.id('btnStop');
-var buttonPause = document.createElement('button');
-buttonPause.classList.add('btn', 'btn-warning', 'btn-custom');
-buttonPause.setAttribute('type', 'button');
-buttonPause.innerHTML = 'Пауза/Старт';
 var wrapper = dom.id('wrapper');
 var wrapperTime = dom.id('wrapper-time');
 var wrapperTimeMs = dom.id('wrapper-time-milliseconds');
@@ -39,7 +41,7 @@ function timerStart(){
 	wrapperTimeMs.innerHTML = milli; // milliseconds
 }
 
-function replaceButtons(){
+function replaceButtons(){ //shortcut function to replace buttons
 	wrapper.removeChild(buttonPause);
 	wrapper.insertBefore(buttonStart, wrapper.children[2]);
 }
