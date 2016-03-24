@@ -18,13 +18,17 @@ var buttonStop = dom.id('btnStop');
 var wrapper = dom.id('wrapper');
 var wrapperTime = dom.id('wrapper-time');
 var wrapperTimeMs = dom.id('wrapper-time-milliseconds');
-var timer = 0;
-var hours = 0;
-var minutes = 0;
-var seconds = 0;
-var milli = 0;
-var running = false;
-var run = 0;
+var timer = 0 ;
+var hours;
+var minutes;
+var seconds;
+var milli;
+
+
+function setTime(h,m,s,mi){
+	wrapperTime.innerHTML = '0'+h+':'+m+':'+s;
+	wrapperTimeMs.innerHTML = mi;
+}
 
 function timerStart(){
 	++timer;
@@ -32,14 +36,17 @@ function timerStart(){
 	minutes = Math.floor(timer/3600);
 	seconds = Math.floor((timer-minutes*3600)/60);
 	milli = timer - minutes*3600 - seconds * 60;
-	if (hours < 10) hour = '0'+hours;
+	
+	if (hours < 10) hour = '0'+ hours;
 	if (minutes < 10) minutes = '0'+minutes;
 	if (seconds < 10) seconds = '0'+seconds;
 	if (hours < 100) milli = '0'+milli;
 
-	wrapperTime.innerHTML = hour+':'+minutes+':'+seconds; //hours : minutes : seconds
-	wrapperTimeMs.innerHTML = milli; // milliseconds
+	setTime(hours,minutes,seconds,milli);
+
 }
+
+
 
 function replaceButtons(){ //shortcut function to replace buttons
 	wrapper.removeChild(buttonPause);
@@ -59,9 +66,8 @@ function start(){ // start timer and replace button on "pause"
 
 function stop(){
 	clearInterval(id);
-	wrapperTime.innerHTML = '00:00:00';
-	wrapperTimeMs.innerHTML = '000';
-	document.location.reload();
+	setTime('0','00','00','000');
+
 }
 
 function resetStop(){
