@@ -47,7 +47,6 @@ function timerStart(){
 }
 
 
-
 function replaceButtons(){ //shortcut function to replace buttons
 	wrapper.removeChild(buttonPause);
 	wrapper.insertBefore(buttonStart, wrapper.children[2]);
@@ -67,6 +66,8 @@ function start(){ // start timer and replace button on "pause"
 function stop(){
 	clearInterval(id);
 	setTime('0','00','00','000');
+	timer = 0;
+
 
 }
 
