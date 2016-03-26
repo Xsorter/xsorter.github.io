@@ -31,6 +31,9 @@ header{
 	width: 240px;
 	margin-top: 15px;
 	margin-left: 30px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
 }
 
 .header-contact-ico{
@@ -80,11 +83,18 @@ header{
 	border: 1px solid white;
 	border-radius: 10px;
 	transiton: 1s ease;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
 }
 
 .header-contact-callme:hover{
 	background: #453f45;
 	transiton: 1s ease;	
+	border: none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-radius: 0px;
 }
 
 
@@ -129,6 +139,9 @@ header{
 	line-height: 60px;
 	font-weight: bolder;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.62);
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
 }
 
 .header-background-button:hover{
@@ -176,10 +189,16 @@ header{
 	text-align: center;
 	border: 2px white solid;
 	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
 }
 
 .menu-item-link:hover{
 	background: #453f45;
+	border: none;
+	border-left: 2px white solid;
+	border-right: 2px white solid;
 }
 
 
@@ -198,6 +217,7 @@ header{
 
 .menu-mobile-item{
 	float: none;
+
 }
 
 .menu-mobile-item-link{
@@ -215,6 +235,10 @@ header{
 	text-align: center;
 	border: 3px white double;
 	border-radius: 25px;
+	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+
 }
 
 .menu-mobile-item-link:hover{
