@@ -262,3 +262,21 @@ header{
 .header-navigation-ico:hover{
 	background: url(../img/ico/facebookh.png);
 	}
+
+.header-copyright{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.header-copyright-mobile{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 15px;
+	
+}
