@@ -99,7 +99,7 @@ header{
 
 
 .header-background{
-	height: calc(100vh - 100px);
+	height: calc(100vh - 101px);
 	width: 100%;
 	background: url(../img/back2-1.jpg) center no-repeat fixed;
 	background-size: cover;
@@ -166,8 +166,8 @@ header{
 	height: 5px; 
 	width: 40px;
 	display: none;
-	border-bottom: 17px double white; 
-    border-top: 6px solid white; 
+	border-bottom: 17px double #CFBA2F; 
+    border-top: 6px solid  #CFBA2F; 
     content:"";
     margin-top: 10px;
     margin-left: 10px;
@@ -293,7 +293,7 @@ header{
 .header-copyright-mobile{
 	font-family: 'Poiret One', cursive;
 	color: white;
-	font-size: 12px;
+	font-size: 10px;
 	text-align: center;
 	margin-top: 5px;
 	display: none;	

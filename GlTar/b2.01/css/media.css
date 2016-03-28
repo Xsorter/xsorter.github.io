@@ -2,7 +2,7 @@
 @media screen and (max-width: 1368px){
 
 .header-background{
-	height: calc(100vh - 100px);
+	height: calc(100vh - 101px);
 	width: 100%;
 	background: url(../img/back2-1.jpg) center center no-repeat fixed;
 	background-size: cover;
@@ -275,8 +275,7 @@ header{
 .header-top-wrapper{
 	height: 50px;
 	width: 100%;
-	background: rgba(92,95,112,0.6);
-	border-bottom: 1px solid rgba(92,95,112,0.0);
+	background: rgba(92,95,112,0.5);
 }
 
 .header-top-wrapper:hover{
@@ -298,7 +297,7 @@ header{
 .header-contact-ico{
 	width: 24px;
 	height: 24px;
-	margin-top: 5px;
+	margin-top: 8px;
 	float: left;
 	background: url(../img/ico/facebook.png) center center no-repeat;
 	background-size:100%;
@@ -375,9 +374,9 @@ header{
 }
 
 .header-background-button{
-	height: 60px;
+	height: 40px;
 	width: 100%;
-	max-width: 300px;
+	max-width: 260px;
 	background: rgba(105,96,105,0.5);
 	margin: 0 auto;
 	margin-top: 5%;
@@ -386,8 +385,8 @@ header{
 	text-align: center;
 	color: white;
 	font-family: 'Poiret One', cursive;
-	font-size: 30px;
-	line-height: 60px;
+	font-size: 28px;
+	line-height: 40px;
 	font-weight: bolder;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.62);
 }
