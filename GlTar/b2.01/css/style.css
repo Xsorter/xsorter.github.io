@@ -99,7 +99,7 @@ header{
 
 
 .header-background{
-	height: 1200px;
+	height: calc(100vh - 100px);
 	width: 100%;
 	background: url(../img/back2-1.jpg) center no-repeat fixed;
 	background-size: cover;
@@ -164,18 +164,15 @@ header{
 
 .header-navicon{
 	height: 5px; 
-	width:40px;
+	width: 40px;
 	display: none;
-	border-bottom: 17px double #424242; 
-    border-top: 6px solid #424242; 
+	border-bottom: 17px double white; 
+    border-top: 6px solid white; 
     content:"";
     margin-top: 10px;
     margin-left: 10px;
-    
+    float: left;
 }
-
-
-
 
 
 .header-navigation-menu-box{
@@ -223,7 +220,7 @@ header{
 	height: 0%;
 	margin: 0 auto;
 	display: none;
-	
+	margin-bottom: 10px;
 }
 
 .menu-mobile-item{
@@ -265,13 +262,24 @@ header{
 	margin-top: -50px;
 	margin-right: 30px;
 	background: url(../img/ico/facebook.png);
-	
-	
 }
+
+
+.header-mobile-contact{
+	display: none;
+	width: 100%;
+	max-width: 180px;
+	height: 45px;
+	margin-right: 0px;
+	margin-top: 4px;
+	float: right;	
+}
+
+
 
 .header-navigation-ico:hover{
 	background: url(../img/ico/facebookh.png);
-	}
+}
 
 .header-copyright{
 	font-family: 'Poiret One', cursive;
@@ -287,6 +295,6 @@ header{
 	color: white;
 	font-size: 12px;
 	text-align: center;
-	margin-top: 15px;
-	
+	margin-top: 5px;
+	display: none;	
 }
