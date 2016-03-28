@@ -220,6 +220,13 @@ header{
 	height: 0%;
 	margin: 0 auto;
 	display: none;
+	margin-bottom: 0px;
+}
+
+
+
+
+.header-navigation-menu-mobile{
 	margin-bottom: 10px;
 }
 

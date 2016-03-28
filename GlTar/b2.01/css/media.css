@@ -412,6 +412,10 @@ header{
 }
 
 .header-navigation-menu-mobile-box{
+	display: block;
+}
+
+.header-navigation-menu-mobile{
 	display: none;
 }
 
