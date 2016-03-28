@@ -240,7 +240,8 @@ header{
 	margin-top: 10px;
 	text-decoration: none;
 	display: block;
-	background: rgba(105,96,105,0.2);
+	/*background: rgba(105,96,105,0.2);*/
+	background: grey;
 	line-height: 60px;
 	width: 100%
 	max-width: 450px;
@@ -248,9 +249,9 @@ header{
 	text-align: center;
 	border: 3px #ffe208 double;
 	border-radius: 20px;
-	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	/*-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
 	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
-	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
+	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);*/
 
 }
 
