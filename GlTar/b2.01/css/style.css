@@ -224,8 +224,6 @@ header{
 }
 
 
-
-
 .header-navigation-menu-mobile{
 	margin-bottom: 10px;
 }
@@ -238,7 +236,7 @@ header{
 .menu-mobile-item-link{
 	color: white;
 	font-size: 35px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'proxima', cursive;
 	margin-top: 10px;
 	text-decoration: none;
 	display: block;
