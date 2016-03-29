@@ -107,7 +107,7 @@ header{
 }
 
 .testimontal{
-	margin: 0 auto;
+	float: left;
 }
 
 .testimontal2{
