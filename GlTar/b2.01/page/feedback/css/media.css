@@ -497,6 +497,26 @@ header{
 	border-radius: 5px;
 }
 
+.testimontal{
+	float: none;
+	margin-top: 5px;
+	margin-left: 0%;
+
+}
+
+.testimontal2{
+	float:none;
+	margin-top: 5px;
+	margin-left: 0%;
+}
+
+
+
+
+
+
+
+
 .header-background-wrapper{
 	height: auto;
 	width: 100%;
@@ -609,6 +629,23 @@ header{
 
 /*iphone 4 quick fix*/
 @media screen and (max-width: 320px) and (max-height: 480px) and (orientation: portrait){
+
+.testimontal{
+	float: none;
+	margin-top: 5px;
+	margin-left: 0%;
+
+}
+
+.testimontal2{
+	float:none;
+	margin-top: 5px;
+	margin-left: 0%;
+}
+
+
+
+
 .header-background{
 	height: 415px;
 	background: url(../img/back3.jpg) center center no-repeat;
@@ -744,6 +781,22 @@ header{
 
 /*MEDIA-320px*/
 @media screen and (max-width: 320px){
+
+.testimontal{
+	float: none;
+	margin-top: 5px;
+	margin-left: 0%;
+
+}
+
+.testimontal2{
+	float:none;
+	margin-top: 5px;
+	margin-left: 0%;
+}
+
+
+
 
 .header-logo{
 	height: 100%;
