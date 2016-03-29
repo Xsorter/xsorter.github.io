@@ -125,6 +125,15 @@ header{
 	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
 }
 
+.testimontal3{
+	float:none;
+	margin-top: 20px;
+	margin-left: 3%;
+	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+}
+
 
 
 
