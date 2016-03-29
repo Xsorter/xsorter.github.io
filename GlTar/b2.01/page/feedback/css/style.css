@@ -102,16 +102,18 @@ header{
 .feedback{
 	background: rgba(255,255,255,0.8);
 	width: 100%;
-	height: 1000px;
+	height: 100%;
 	margin: 0 auto;
 }
 
 .testimontal{
 	float: left;
+	margin-top: 10px;
 }
 
 .testimontal2{
 	float:right;
+	margin-top: 10px;
 }
 
 
