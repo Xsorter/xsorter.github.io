@@ -110,13 +110,19 @@ header{
 	float: left;
 	margin-top: 20px;
 	margin-left: 25%;
+	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
 
 }
 
 .testimontal2{
-	float:right;
+	float:left;
 	margin-top: 20px;
 	margin-left: 5%;
+	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
 }
 
 

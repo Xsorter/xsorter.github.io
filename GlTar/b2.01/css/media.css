@@ -8,15 +8,12 @@
 	background-size: cover;
 }
 
-.header-background-wrapper{
-	height: 480px;
-	margin-top: 1%;
-}
+
 
 .header-background-wrapper{
 	height: 300px;
 	width: 500px;
-	margin-top: 5%;
+	margin-top: 2%;
 	float: right;
 	margin-right: 5%;	
 }
