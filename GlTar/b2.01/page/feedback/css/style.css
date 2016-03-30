@@ -107,31 +107,32 @@ header{
 }
 
 .testimontal{
-	float: left;
+	height: 500px;
+	width: 700px;
+	margin-left: 20%;
 	margin-top: 20px;
-	margin-left: 25%;
-	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
-	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
-	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
-
+	
+	/*background: red;*/
 }
 
 .testimontal2{
-	float:left;
-	margin-top: 20px;
+	height: 500px;
+	width: 700px;
 	margin-left: 5%;
-	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
-	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
-	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	margin-top: 20px;
+	
+	/*background: green;*/
+	
 }
 
 .testimontal3{
+	height: 500px;
+	width: 700px;
 	float:none;
 	margin-top: 20px;
 	margin-left: 3%;
-	-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
-	-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
-	box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
+	/*background: yellow;*/
+	
 }
 
 
