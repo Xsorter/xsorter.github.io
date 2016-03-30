@@ -107,27 +107,19 @@ header{
 }
 
 .testimontal{
-	height: 500px;
-	width: 700px;
 	margin-left: 20%;
 	margin-top: 20px;
-	
 	/*background: red;*/
 }
 
 .testimontal2{
-	height: 500px;
-	width: 700px;
 	margin-left: 5%;
 	margin-top: 20px;
-	
 	/*background: green;*/
 	
 }
 
 .testimontal3{
-	height: 500px;
-	width: 700px;
 	float:none;
 	margin-top: 20px;
 	margin-left: 3%;
