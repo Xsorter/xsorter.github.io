@@ -110,21 +110,21 @@ header{
 .testimontal{
 	margin-left: 20%;
 	margin-top: 20px;
-	/*background: red;*/
+	
 }
 
 .testimontal2{
 	margin-left: 5%;
 	margin-top: 20px;
-	/*background: green;*/
+	
 	
 }
 
 .testimontal3{
 	float:none;
 	margin-top: 20px;
+	margin-bottom: 10px;
 	margin-left: 3%;
-	/*background: yellow;*/
 	
 }
 
