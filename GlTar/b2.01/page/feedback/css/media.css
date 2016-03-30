@@ -49,6 +49,10 @@
 	margin-top: 10px;
 	padding-top: 7px;
 }
+
+.header-mobile-contact{
+	display: none;
+}
 }
 
 
@@ -644,9 +648,6 @@ header{
 	margin-left: 0%;
 }
 
-
-
-
 .header-background{
 	height: 415px;
 	background: url(../img/back3.jpg) center center no-repeat;
@@ -685,7 +686,7 @@ header{
 
 .header-navigation-menu-mobile-box{
 	width: 100%;
-	max-width: 220px;
+	max-width: 200px;
 	height: 0%;
 	margin: 0 auto;
 	margin-bottom: 0px;
@@ -704,14 +705,15 @@ header{
 }
 
 .menu-mobile-item-link{
-	font-size: 28px;
+	font-size: 24px;
 	margin-top: 10px;
-	line-height: 35px;
+	line-height: 30px;
 	width: 100%;
-	max-width: 220px;
-	height: 35px;
+	max-width: 200px;
+	height: 30px;
 	text-align: center;
 	border-radius: 10px;
+	border: 2px #ffe208 solid;
 }
 
 .menu-mobile-item-link:hover{
