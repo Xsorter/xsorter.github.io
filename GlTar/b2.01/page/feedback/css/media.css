@@ -268,57 +268,8 @@
 	background-size: cover;
 }
 
-.header-background-wrapper{
-	max-height: 520px;
-	width: 100%;
-	max-width: 500px;
-	margin-top: 50%;
-	float: none;
-	margin: 0 auto;	
-}
 
-.header-backround-text{
-	width: 500px;
-	color: white;
-	font-size: 70px;
-	margin-left: 10px;
-	font-family: 'Poiret One', cursive;
-	text-shadow: black 0 0 10px;	
-	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.62);
-	font-weight: bold;
-}
-
-.header-background-button{
-	height: 60px;
-	width: 240px;
-	background: rgba(105,96,105,0.5);
-	margin-top:  70px;
-	margin-left: 130px;
-	border:3px white solid;
-	border-radius: 5px;
-	text-align: center;
-	color: white;
-	font-family: 'Poiret One', cursive;
-	font-size: 30px;
-	line-height: 60px;
-	font-weight: bolder;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.62);
-	-webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
-	-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
-	box-shadow: 10px 10px 13px -8px rgba(0,0,0,1);
-}
-
-.header-background-button:hover{
-	background: rgba(130,96,105,0.6);
-	cursor: pointer;
-}
-
-
-.header-background-button-contact{
-	margin-top: 40px;
-}
-
-.header-navigation{
+footer{
 	height: 110px;
 	width: 100%;
 	background: rgba(92,95,112,0.7);
@@ -436,7 +387,6 @@ header{
 	border-bottom: none;
 }
 
-
 .header-logo{
 	height: 100%;
 	max-height: 40px;
@@ -446,7 +396,6 @@ header{
 	margin-right: 2%;
 	float: right;
 }
-
 
 .header-contact-ico{
 	width: 24px;
@@ -464,23 +413,15 @@ header{
 }
 
 .header-contact{
-	max-width: 180px;
-	width: 100%;
-	height: 50px;
-	margin-right: 5px;
-	margin-top: 5px;
-	float: right;
 	display: none;
 }
 
 .header-contact-phone{
+	margin-top: 0px;
 	font-size: 14px;
 	margin-left: 10px;
-	font-family: 'Poiret One', cursive;
-	font-weight: bold;
-	float: left;
-	color: #404040;
 	text-shadow: none;
+	color: #404040;
 }
 
 .header-contact-callme{
@@ -489,16 +430,11 @@ header{
 	height: 100%;
 	max-height: 18px;
 	color: white;
-	font-family: 'Poiret One', cursive;
 	font-size: 14px;
-	text-align: center;
-	background: #696069;
 	float: left;
 	margin-left: 10px;
 	margin-top: 5px;
 	padding-top: 0px;
-	border: 1px solid white;
-	transiton: 1s ease;
 	border-radius: 5px;
 }
 
@@ -516,73 +452,8 @@ header{
 }
 
 
-
-
-
-
-
-
-.header-background-wrapper{
-	height: auto;
-	width: 100%;
-	max-width: 450px;
-	margin:0 auto;
-	margin-top: 10%;
-	float: none;
-}
-
-.header-backround-text{
-	line-height: 70px;
-	background: rgba(92,95,112,0.6);
-	width: 100%;
-	max-width: 450px;
-	color: white;
-	text-align: center;
-	margin:0 auto;
-	font-size: 40px;
-	margin-top: 50%;
-	font-family: 'Poiret One', cursive;
-	text-shadow: black 0 0 10px;	
-	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.62);
-	font-weight: bold;
-}
-
-.header-background-button{
-	height: 40px;
-	width: 100%;
-	max-width: 260px;
-	background: rgba(105,96,105,0.5);
-	margin: 0 auto;
-	margin-top: 5%;
-	border:3px white solid;
-	border-radius: 5px;
-	text-align: center;
-	color: white;
-	font-family: 'Poiret One', cursive;
-	font-size: 28px;
-	line-height: 40px;
-	font-weight: bolder;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.62);
-}
-
-.header-background-button:hover{
-	background: rgba(64,59,64,0.2);
-}
-
-.header-background-button-contact{
-	margin-top: 2%;
-}
-
 .header-navigation-menu-box{
 	display: none;
-}
-
-.header-background{
-	
-	width: 100%;
-	height: calc(100vh - 70px);
-	background: url(../img/back3.jpg) center center no-repeat;
-	background-size: cover;
 }
 
 .header-navigation-menu-mobile-box{
@@ -592,7 +463,6 @@ header{
 .header-navigation-menu-mobile{
 	display: none;
 }
-
 
 .header-mobile-contact{
 	display: block;
@@ -610,7 +480,7 @@ header{
 	display: block;
 }
 
-.header-navigation{
+footer{
 	height: 50px;
 	width: 100%;
 	background: #CFBA2F;
@@ -648,41 +518,6 @@ header{
 	margin-left: 0%;
 }
 
-.header-background{
-	height: 415px;
-	background: url(../img/back3.jpg) center center no-repeat;
-	background-size: cover;
-}
-
-.header-background-wrapper{
-	height: auto;
-	width: 100%;
-	max-width: 320px;
-	margin:0 auto;
-	margin-top: 5%;
-	float: none;
-}
-
-.header-backround-text{
-	line-height: 60px;
-	width: 100%;
-	max-width: 450px;
-	text-align: center;
-	margin:0 auto;
-	font-size: 40px;
-	margin-top: 40%;
-}
-
-.header-background-button{
-	height: 30px;
-	width: 100%;
-	max-width: 200px;
-	margin: 0 auto;
-	margin-top: 5%;
-	text-align: center;
-	font-size: 24px;
-	line-height: 30px;
-}
 
 .header-navigation-menu-mobile-box{
 	width: 100%;
@@ -720,7 +555,7 @@ header{
 	background: rgba(130,96,105,0.4);
 }
 
-.header-navigation{
+footer{
 	height: 45px;
 	width: 100%;
 	background: #CFBA2F;
@@ -776,11 +611,7 @@ header{
 	border-radius: 5px;
 	background: red;
 }
-
 }
-
-
-
 
 /*MEDIA-320px*/
 @media screen and (max-width: 320px){
@@ -789,23 +620,7 @@ header{
 	float: none;
 	margin-top: 5px;
 	margin-left: 0%;
-
 }
-
-.testimontal2{
-	float:none;
-	margin-top: 5px;
-	margin-left: 0%;
-}
-
-.testimontal2{
-	float:none;
-	margin-top: 5px;
-	margin-left: 0%;
-}
-
-
-
 
 .header-logo{
 	height: 100%;
