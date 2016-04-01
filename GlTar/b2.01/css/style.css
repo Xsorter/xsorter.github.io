@@ -149,6 +149,10 @@ header{
 	cursor: pointer;
 }
 
+.header-background-button a{
+	text-decoration: none;
+	color: white;
+}
 
 .header-background-button-contact{
 	margin-top: 40px;
