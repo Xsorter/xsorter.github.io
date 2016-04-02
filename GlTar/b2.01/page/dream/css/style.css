@@ -263,12 +263,122 @@ header{
 	width: 100%;
 	height: 300px;
 	background: white;
+	clear: both;
+	overflow: hidden;
 }
+
+.content-date-box{
+	height: 150px;
+	width: 100%;
+	max-width: 950px;
+	margin:0 auto;
+	margin-top: 75px;
+	border-radius: 10px;
+	border: 1px solid #c3cfd8; 
+}
+
+.content-date-box-date{
+	height: 150px;
+	width: 50%;
+	float: left;
+}
+
+.content-date-box-date-icon{
+	margin-top: 40px;
+	margin-left: 20px;
+	float: left;
+}
+
+.content-date-box-date-text{
+	font-family: 'Poiret One', cursive;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.time{
+	margin-top: 10px;	
+}
+
+.place{
+	margin-top: 60px;
+}
+
+.content-date-box-date a{
+	text-decoration: none;
+	color: black;
+}
+
 
 .content-info{
 	width: 100%;
-	height: 800px;
+	height: 650px;
 	background: #eeeef4;
+}
+
+.content-info-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.content-info-title-info{
+	width: 100%;
+	max-width: 900px;
+	height: 250px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-info-title-info-box{
+	width: 225px;
+	height: 250px;
+	float: left;
+}
+
+.content-info-title-info-box p{
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'proxima';
+	font-size: 22px;
+	color: #4e5665;
+}
+
+.content-info-title-info-icon{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #c3cfd8; 
+	border-radius: 75px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+.content-info-title-info-image{
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+.content-info-text-box{
+	width: 100%;
+	max-width: 900px;
+	height: 180px;
+	border: 3px solid white;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+.content-info-text{
+	text-indent: 10px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 20px;
+	padding: 30px 20px 20px 20px;
+	line-height: 1.3;
+	text-align: justify;
 }
 
 .content-trainers{
@@ -276,6 +386,68 @@ header{
 	height: 1000px;
 	background: white;
 }
+
+.content-trainers-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.content-trainers-box{
+	width: 100%;
+	max-width: 900px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-trainers-box-image{
+	width: 50%;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+}
+
+.content-trainers-box-image-wrapper{
+	width: 400px;
+	height: 400px;
+	overflow: hidden; 
+}
+
+.content-trainers-image{
+	width: 400px;
+	height: 400px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.content-trainers-image:hover{
+	-webkit-transform: scale(1.3);
+ 	-moz-transform: scale(1.3);
+ 	-o-transform: scale(1.3);
+}
+
+.content-trainers-box-text{
+	padding: 50px 20px 20px 20px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 24px;
+	line-height: 1.1;
+	
+}
+
+.content-trainers-box-text span{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 26px;
+	color: #931614;
+}
+
+
+
 
 .content-schedule{
 	width: 100%;
