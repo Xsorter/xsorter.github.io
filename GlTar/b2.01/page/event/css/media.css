@@ -53,8 +53,17 @@
 .header-mobile-contact{
 	display: none;
 }
+
 }
 
+@media screen and (max-width: 1800px) and (min-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1368px) {
+
+
+}
 
 /*MEDIA-1368px*/
 @media screen and (max-width: 1368px){
@@ -113,6 +122,7 @@
 }
 
 
+
 /*MEDIA-1240px fix */
 @media screen and (max-width: 1240px){
 .header-logo{
@@ -168,6 +178,11 @@
 	margin-top: 10px;
 	padding-top: 7px;
 }
+
+.events-text-title{
+	font-size: 180%;
+}
+
 }
 
 
@@ -190,7 +205,31 @@
 	width: 80px;
 	height: 100px;
 }
+
+.events-text-title{
+	font-size: 150%;
 }
+}
+
+@media screen and (max-width: 960px){
+.events-text-title{
+	font-size: 120%;
+}
+.events-text-title-date{
+	font-size: 110%;
+}
+
+.events-text{
+	height: 300px;
+	float: right;
+	width: 50%;
+	margin-top: 8%;
+	margin-right: 0%;
+	/*background: yellow;*/
+}	
+}
+
+
 
 /*MEDIA-890px fix*/
 @media screen and (max-width: 890px){
@@ -209,6 +248,23 @@
 	width: 60px;
 	height: 100px;
 }
+
+.events-text-title{
+	font-size: 100%;
+}
+.events-text-title-date{
+	font-size: 90%;
+}
+
+.events-text{
+	height: 300px;
+	float: right;
+	width: 40%;
+	margin-top: 8%;
+	margin-right: 0%;
+	/*background: yellow;*/
+}	
+
 }
 
 
@@ -445,7 +501,7 @@ header{
 }
 
 .events-title{
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
 	color: #303030;
@@ -455,13 +511,135 @@ header{
 
 .events-top{
 	width: 100%;
-	height: 500px;
+	height: 700px;
 }
 
 .events-second{
 	width: 100%;
-	height: 500px;
+	height: 700px;
 }
+
+.events-top-image{
+	margin-top: 0;
+	margin-left: 0%;
+	overflow:hidden;
+	width: 100%;
+ 	max-width: 480px;
+ 	height:270px;
+ 	position: static;
+ 	color:black;
+}
+
+.events-top-image img:hover{
+	outline: 0px solid rgba(255,255,255,0.5); 
+    outline-offset: 0px; 
+}
+
+.events-top-image img{
+	width: 480px;
+	height: 270px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.events-top-image img:hover{
+	-webkit-transform: scale(1.2);
+ 	-moz-transform: scale(1.2);
+ 	-o-transform: scale(1.2);
+}
+
+.events-text{
+	height: 400px;
+	float: none;
+	width: 100%;
+	max-width: 460px;
+	padding-top: 8%;
+	margin-right: 0%;
+	margin: auto;
+}	
+
+.events-text-title{
+	font-family: 'Poiret One', cursive;
+	font-size: 150%;
+	text-align: center;
+}
+
+.events-text-title span{
+	color: red;
+	font-weight: bold;
+}
+
+.events-text-title-date{
+	font-family: 'Poiret One', cursive;
+	font-size: 150%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.events-text-title-date span{
+	color: #931614;
+}
+
+.time{
+	margin-top: 1%;
+}
+
+.events-text-button{
+	width: 200px;
+	line-height: 50px;
+	text-align: center;
+	margin:0 auto;
+	font-family: 'Poiret One', cursive;
+	font-size: 28px;
+	font-weight: bold;
+	background: #00acec;
+	color: white;
+	transition: 0.4s ease;
+	box-sizing:border-box;
+}
+
+.null{
+	width: 10px;
+	height: 10px;
+	margin: auto; 
+}
+
+.register{
+	/*margin-left: 5%;*/
+	background: #931614;
+	margin-top: 10px;
+}
+
+.events-text-button:hover{
+	width: 260px;
+	transition: 0.4s ease;
+	cursor: pointer;
+	color: #ffe208;
+}
+
+.events-text-date{
+	height: 100px;
+	width: 500px;
+	background: yellow;
+	position: absolute;
+	margin-top: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -517,19 +695,6 @@ footer{
 
 /*iphone 4 quick fix*/
 @media screen and (max-width: 320px) and (max-height: 480px) and (orientation: portrait){
-
-.testimontal{
-	float: none;
-	margin-top: 5px;
-	margin-left: 0%;
-
-}
-
-.testimontal2{
-	float:none;
-	margin-top: 5px;
-	margin-left: 0%;
-}
 
 
 .header-navigation-menu-mobile-box{
@@ -624,6 +789,68 @@ footer{
 	border-radius: 5px;
 	background: red;
 }
+
+.events-top{
+	width: 100%;
+	height: 500px;
+}
+
+.events-second{
+	width: 100%;
+	height: 500px;
+}
+
+.events-top-image{
+	margin-top: 0;
+	margin-left: 0%;
+	overflow:hidden;
+	width: 100%;
+ 	max-width: 480px;
+ 	height:220px;
+ 	position: static;
+ 	color:black;
+}
+
+.events-top-image img{
+	width: 320px;
+	height: 220px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.events-text{
+	height: 250px;
+	float: none;
+	width: 100%;
+	max-width: 460px;
+	padding-top: 8%;
+	margin-right: 0%;
+	margin: auto;
+}	
+
+.events-text-title{
+	font-family: 'Poiret One', cursive;
+	font-size: 100%;
+	text-align: center;
+}
+
+.events-text-title span{
+	color: red;
+	font-weight: bold;
+}
+
+.events-text-title-date{
+	font-family: 'Poiret One', cursive;
+	font-size: 80%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.events-text-title-date span{
+	color: #931614;
+}
+
 }
 
 /*MEDIA-320px*/

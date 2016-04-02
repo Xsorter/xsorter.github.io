@@ -205,6 +205,113 @@ header{
 	background: #eeeef4;
 }
 
+.events-top-image{
+	margin-top: 8%;
+	margin-left: 5%;
+	overflow:hidden;
+ 	width: 400px;
+ 	height:270px;
+ 	position: absolute;
+ 	color:black;
+}
+
+.events-top-image img:hover{
+	outline: 1px solid rgba(255,255,255,0.5); 
+    outline-offset: -40px; 
+}
+
+.events-top-image img{
+	width: 400px;
+	height: 270px;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+}
+
+.events-top-image img:hover{
+	-webkit-transform: scale(1.2);
+ 	-moz-transform: scale(1.2);
+ 	-o-transform: scale(1.2);
+}
+
+.events-text{
+	height: 300px;
+	float: right;
+	width: 50%;
+	margin-top: 8%;
+	margin-right: 5%;
+	/*background: yellow;*/
+}	
+
+.events-text-title{
+	font-family: 'Poiret One', cursive;
+	font-size: 220%;
+	text-align: center;
+}
+
+.events-text-title span{
+	color: red;
+	font-weight: bold;
+}
+
+.events-text-title-date{
+	font-family: 'Poiret One', cursive;
+	font-size: 150%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.events-text-title-date span{
+	color: #931614;
+}
+
+.time{
+	margin-top: 1%;
+}
+
+.events-text-button{
+	width: 200px;
+	line-height: 50px;
+	text-align: center;
+	margin:0 auto;
+	font-family: 'Poiret One', cursive;
+	font-size: 28px;
+	font-weight: bold;
+	background: #00acec;
+	color: white;
+	transition: 0.4s ease;
+	box-sizing:border-box;
+}
+
+.null{
+	width: 10px;
+	height: 10px;
+	margin: auto; 
+}
+
+.register{
+	/*margin-left: 5%;*/
+	background: #931614;
+	margin-top: 10px;
+}
+
+.events-text-button:hover{
+	width: 260px;
+	transition: 0.4s ease;
+	cursor: pointer;
+	color: #ffe208;
+}
+
+.events-text-date{
+	height: 100px;
+	width: 500px;
+	background: yellow;
+	position: absolute;
+	margin-top: 400px;
+}
+
+
+
 .events-arrow{
 	width: 0;
   	height: 0; 
