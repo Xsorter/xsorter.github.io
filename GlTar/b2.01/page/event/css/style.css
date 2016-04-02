@@ -73,14 +73,14 @@ header{
 	height: 100px;
 	text-align: center;	
 	cursor: pointer;
-	border-left: 2px rgba(105,96,105,0.0) solid;
-	border-right: 2px rgba(105,96,105,0.0) solid;
 }
 
 .menu-item-link:hover{
 	background: rgba(39,40,47,0.5);
-	border-left: 2px #ffe208 solid;
-	border-right: 2px #ffe208 solid;
+	color: #ffe208;
+	/*border-left: 2px #ffe208 solid;*/
+	border-bottom: 2px #ffe208 solid;
+	box-sizing:border-box;
 }
 
 

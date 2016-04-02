@@ -225,7 +225,7 @@
 	width: 50%;
 	margin-top: 8%;
 	margin-right: 0%;
-	/*background: yellow;*/
+	
 }	
 }
 
@@ -262,7 +262,6 @@
 	width: 40%;
 	margin-top: 8%;
 	margin-right: 0%;
-	/*background: yellow;*/
 }	
 
 }
@@ -729,9 +728,6 @@ footer{
 	border: 2px #ffe208 solid;
 }
 
-.menu-mobile-item-link:hover{
-	background: rgba(130,96,105,0.4);
-}
 
 footer{
 	height: 45px;
