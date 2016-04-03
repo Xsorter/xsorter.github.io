@@ -436,7 +436,6 @@ header{
 	color: #4e5665;
 	font-size: 24px;
 	line-height: 1.1;
-	
 }
 
 .content-trainers-box-text span{
@@ -446,33 +445,153 @@ header{
 	color: #931614;
 }
 
-
-
-
 .content-schedule{
 	width: 100%;
 	height: 600px;
 	background: #eeeef4;
 }
 
+.content-schedule-box{
+	width: 100%;
+	max-width: 900px;
+	height: 400px;
+	margin:0 auto;
+	margin-top: 50px;
+	
+}
+
+.content-schedule-box-info{
+	width: 290px;
+	height: 400px;
+	background: white;
+	float: left;
+	margin-left: 10px;
+}
+
+.content-schedule-box-time{
+	padding-top: 10px;
+	color: #89b3df;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.content-schedule-box-text{
+	text-indent: 10px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 18px;
+	padding: 30px 10px 10px 10px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.content-schedule-box-image{
+	margin:0 auto;
+	margin-top: 30px;
+	display: block; 
+}
+
+.center-image{
+	margin-top: 7px;
+}
+
+.content-schedule-box-name{
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 20px;
+	padding: 40px 5px 5px 5px;
+	text-align: center;
+}
 .content-gallery{
 	width: 100%;
-	height: 300px;
+	height: 600px;
 	background: white;
+}
+
+.fotorama__wrap {
+padding-top: 20px;
+padding-bottom: 20px;
+margin: auto; 
 }
 
 .content-price{
 	width: 100%;
-	height: 300px;
-	background: #eeeef4;
+	height: 350px;
+	background: url(../img/backwoman.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.content-price-text{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	font-weight: bold;
+	color: #4e5665;
+	font-size: 22px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.content-price-text span{
+	color: #931614;
+	font-size: 26px;
+
 }
 
 .content-register{
 	width: 100%;
-	height: 1000px;
+	height: 600px;
 	background: #74b4df;
 }
 
+.content-register-title{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	color: white;
+	font-size: 30px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.content-register-form{
+
+}
+
+.content-register-input{
+	width: 100%;
+	max-width: 400px;
+	padding-left: 10px;
+	margin-top: 10px;
+	height: 40px;
+	border-radius: 5px;
+	
+	margin:auto; 
+	margin-bottom: 15px;
+	display: list-item;
+}
+
+.content-register-button{
+	height: 50px;
+	width: 410px;
+	margin-top: 20px;
+	display: block;
+	margin: auto; 
+	border: 1px white solid;
+	border-radius: 5px;
+	color: white;
+	font-family: 'proxima';
+	font-size: 30px;
+	background: #931614;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+
+.content-register-button:hover{
+	width: 440px;
+	height: 60px;
+	transition: 0.4s ease;
+}
 
 
 /*footer*/
