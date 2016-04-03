@@ -493,138 +493,446 @@ header{
 	border-radius: 5px;
 }
 
-.events{
+
+
+
+
+
+
+
+
+.content-background{
 	width: 100%;
-	height: 100%;
-	background: white;
+	height: 600px;
+	background: url(../img/dream6.jpg) center no-repeat;
 }
 
-.events-title{
-	font-size: 20px;
-	font-weight: bold;
+
+.content-background-title{
+	width: 100%;
+	height: 250px;
+	margin-top: 170px;
+	background: rgba(92,95,112,0.5);
+	position: absolute;
+	transition: 0.4s ease;
+}
+
+.content-background-title:hover .content-background-title-text-place{
+	margin-top: 70px;
+	background: rgba(92,95,112,0.3);
+	position: static;
+	transition: 0.4s ease;
+	display: block;
+}
+
+
+.content-background-title-text{
 	font-family: 'Poiret One', cursive;
-	color: #303030;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
 	text-align: center;
+	margin-top: 10px;
+}
+
+.content-background-title-button{
+	width: 220px;
 	line-height: 50px;
+	background: #931614;
+	margin: auto;
+	margin-top: 80px;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	transition: 0.4s ease;
+}
+.content-background-title-button:hover{
+	color: #ffe208;
+	width: 300px;
+	transition: 0.4s ease;
+	cursor: pointer;
 }
 
-.events-top{
+.content-background-title-text-place{
+	display: block;
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 70px;
+	display: none;
+	transition: 0.4s ease;
+}
+
+.content-background-title-text-place span{
+	color: #931614;
+}
+
+.content-date{
 	width: 100%;
-	height: 700px;
+	height: 340px;
+	background: white;
+	clear: both;
+	overflow: hidden;
 }
 
-.events-second{
+.content-date-box{
+	height: 340px;
 	width: 100%;
-	height: 700px;
+	max-width: 950px;
+	margin:0 auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: none; 
 }
 
-.events-top-image{
-	margin-top: 0;
-	margin-left: 0%;
-	overflow:hidden;
+.content-date-box-date{
+	height: 150px;
+	width: 95%;
+	float: none;
+	margin: auto;
+}
+
+.content-date-box-date-icon{
+	margin-top: 40px;
+	margin-left: 20px;
+	float: left;
+}
+
+.content-date-box-date-text{
+	font-family: 'Poiret One', cursive;
+	margin-top: 0px;
+	padding-top: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.time{
+	margin-top: 0px;	
+}
+
+.place{
+	margin-top: 0px;
+	padding-top: 60px;
+}
+
+.content-date-box-date a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.content-info{
 	width: 100%;
- 	max-width: 480px;
- 	height:270px;
- 	position: static;
- 	color:black;
+	height: 1550px;
+	background: #eeeef4;
 }
 
-.events-top-image img:hover{
-	outline: 0px solid rgba(255,255,255,0.5); 
-    outline-offset: 0px; 
+.content-info-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-.events-top-image img{
-	width: 480px;
-	height: 270px;
+.content-info-title-info{
+	width: 100%;
+	max-width: 900px;
+	height: 1020px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+.content-info-title-info-box{
+	width: 225px;
+	height: 250px;
+	float: none;
+	margin: auto;
+}
+
+.content-info-title-info-box p{
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'proxima';
+	font-size: 22px;
+	color: #4e5665;
+}
+
+.content-info-title-info-icon{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #c3cfd8; 
+	border-radius: 75px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+.content-info-title-info-image{
+	display: block;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+.content-info-text-box{
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	border-left: none;
+	border-right: none;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+.content-info-text{
+	text-indent: 10px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 19px;
+	padding: 30px 20px 20px 20px;
+	line-height: 1.3;
+	text-align: justify;
+}
+
+
+
+
+
+
+.content-trainers{
+	width: 100%;
+	height: 1600px;
+}
+
+.content-trainers-title{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.content-trainers-box{
+	width: 100%;
+	max-width: 900px;
+	height: 600px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-trainers-box-image{
+	width: 100%;
+	height: 380px;
+	float: left;
+	overflow: hidden;
+}
+
+.content-trainers-box-image-wrapper{
+	width: 100%;
+	height: 400px;
+	overflow: hidden; 
+}
+
+.content-trainers-image{
+	width: 100%;
+	height: 400px;
 	-moz-transition: all 1s ease-out;
 	-o-transition: all 1s ease-out;
  	-webkit-transition: all 1s ease-out;
 }
 
-.events-top-image img:hover{
-	-webkit-transform: scale(1.2);
- 	-moz-transform: scale(1.2);
- 	-o-transform: scale(1.2);
+.content-trainers-image:hover{
+	-webkit-transform: scale(1.3);
+ 	-moz-transform: scale(1.3);
+ 	-o-transform: scale(1.3);
 }
 
-.events-text{
-	height: 400px;
-	float: none;
-	width: 100%;
-	max-width: 460px;
-	padding-top: 8%;
-	margin-right: 0%;
-	margin: auto;
-}	
+.content-trainers-box-text{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 20px;
+	line-height: 1.1;
+}
 
-.events-text-title{
+.content-trainers-box-text span{
 	font-family: 'Poiret One', cursive;
-	font-size: 150%;
-	text-align: center;
-}
-
-.events-text-title span{
-	color: red;
 	font-weight: bold;
-}
-
-.events-text-title-date{
-	font-family: 'Poiret One', cursive;
-	font-size: 150%;
-	margin-top: 5%;
-	text-align: center;
-}
-
-.events-text-title-date span{
+	font-size: 26px;
 	color: #931614;
 }
 
-.time{
-	margin-top: 1%;
+
+
+
+.content-schedule{
+	width: 100%;
+	height: 1420px;
+	background: #eeeef4;
 }
 
-.events-text-button{
-	width: 200px;
-	line-height: 50px;
-	text-align: center;
-	margin:0 auto;
+.content-schedule-title{
 	font-family: 'Poiret One', cursive;
-	font-size: 28px;
 	font-weight: bold;
-	background: #00acec;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.content-schedule-box{
+	width: 100%;
+	max-width: 900px;
+	height: 1420px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
+.content-schedule-box-info{
+	width: 290px;
+	height: 400px;
+	background: white;
+	float: none;
+	padding-top: 10px;
+	margin: auto;
+	
+}
+
+.content-schedule-box-time{
+	padding-top: 10px;
+	color: #89b3df;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.content-schedule-box-text{
+	text-indent: 10px;
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 18px;
+	padding: 30px 10px 10px 10px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.content-schedule-box-image{
+	margin:0 auto;
+	margin-top: 30px;
+	display: block; 
+}
+
+.center-image{
+	margin-top: 7px;
+}
+
+.content-schedule-box-name{
+	font-family: 'proxima';
+	color: #4e5665;
+	font-size: 20px;
+	padding: 40px 5px 5px 5px;
+	text-align: center;
+}
+.content-gallery{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+.fotorama__wrap {
+padding-top: 20px;
+padding-bottom: 20px;
+margin: auto; 
+}
+
+
+
+
+.content-price{
+	width: 100%;
+	height: auto;
+	background: url(../img/backwoman.jpg) center no-repeat;
+	background-size: cover;
+	background-color: white; 
+}
+
+.content-price-text{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
+	font-weight: bold;
+	color: #4e5665;
+	font-size: 18px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.content-price-text span{
+	color: #931614;
+	font-size: 26px;
+
+}
+
+
+
+.content-register{
+	width: 100%;
+	height: 600px;
+	background: #74b4df;
+}
+
+.content-register-title{
+	padding: 30px 20px 20px 20px;
+	font-family: 'proxima';
 	color: white;
-	transition: 0.4s ease;
-	box-sizing:border-box;
+	font-size: 30px;
+	line-height: 1.1;
+	text-align: center;
 }
 
-.null{
-	width: 10px;
-	height: 10px;
-	margin: auto; 
+.content-register-form{
+
 }
 
-.register{
-	/*margin-left: 5%;*/
-	background: #931614;
+.content-register-input{
+	width: 100%;
+	max-width: 280px;
+	padding-left: 10px;
 	margin-top: 10px;
+	height: 40px;
+	border-radius: 5px;
+	
+	margin:auto; 
+	margin-bottom: 15px;
+	display: list-item;
 }
 
-.events-text-button:hover{
-	width: 260px;
-	transition: 0.4s ease;
+.content-register-button{
+	height: 50px;
+	width: 280px;
+	margin-top: 20px;
+	display: block;
+	margin: auto; 
+	border: 1px white solid;
+	border-radius: 5px;
+	color: white;
+	font-family: 'proxima';
+	font-size: 30px;
+	background: #931614;
 	cursor: pointer;
-	color: #ffe208;
+	transition: 0.4s ease;
 }
 
-.events-text-date{
-	height: 100px;
-	width: 500px;
-	background: yellow;
-	position: absolute;
-	margin-top: 400px;
+.content-register-button:hover{
+	width: 280px;
+	height: 50px;
+	transition: 0.4s ease;
 }
-
 
 
 
@@ -728,6 +1036,12 @@ footer{
 	border: 2px #ffe208 solid;
 }
 
+.content-background{
+	width: 100%;
+	height: 600px;
+	background: url(../img/dream7.jpg) center no-repeat;
+}
+
 
 footer{
 	height: 45px;
@@ -786,77 +1100,18 @@ footer{
 	background: red;
 }
 
-.events-top{
-	width: 100%;
-	height: 500px;
+
 }
 
-.events-second{
-	width: 100%;
-	height: 500px;
-}
 
-.events-top-image{
-	margin-top: 0;
-	margin-left: 0%;
-	overflow:hidden;
-	width: 100%;
- 	max-width: 480px;
- 	height:220px;
- 	position: static;
- 	color:black;
-}
 
-.events-top-image img{
-	width: 320px;
-	height: 220px;
-	-moz-transition: all 1s ease-out;
-	-o-transition: all 1s ease-out;
- 	-webkit-transition: all 1s ease-out;
-}
 
-.events-text{
-	height: 250px;
-	float: none;
-	width: 100%;
-	max-width: 460px;
-	padding-top: 8%;
-	margin-right: 0%;
-	margin: auto;
-}	
-
-.events-text-title{
-	font-family: 'Poiret One', cursive;
-	font-size: 100%;
-	text-align: center;
-}
-
-.events-text-title span{
-	color: red;
-	font-weight: bold;
-}
-
-.events-text-title-date{
-	font-family: 'Poiret One', cursive;
-	font-size: 80%;
-	margin-top: 5%;
-	text-align: center;
-}
-
-.events-text-title-date span{
-	color: #931614;
-}
 
 }
 
 /*MEDIA-320px*/
 @media screen and (max-width: 320px){
 
-.testimontal{
-	float: none;
-	margin-top: 5px;
-	margin-left: 0%;
-}
 
 .header-logo{
 	height: 100%;
@@ -905,7 +1160,11 @@ footer{
 }
 
 
-
+.content-background{
+	width: 100%;
+	height: 600px;
+	background: url(../img/dream7.jpg) center no-repeat;
+}
 
 }
 

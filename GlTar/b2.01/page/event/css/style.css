@@ -243,6 +243,11 @@ header{
 	/*background: yellow;*/
 }	
 
+.events-text a{
+	text-decoration: none;
+}	
+
+
 .events-text-title{
 	font-family: 'Poiret One', cursive;
 	font-size: 220%;

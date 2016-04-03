@@ -451,6 +451,14 @@ header{
 	background: #eeeef4;
 }
 
+.content-schedule-title{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 25px;
+}
+
 .content-schedule-box{
 	width: 100%;
 	max-width: 900px;
@@ -506,7 +514,7 @@ header{
 }
 .content-gallery{
 	width: 100%;
-	height: 600px;
+	height: auto;
 	background: white;
 }
 
@@ -521,6 +529,7 @@ margin: auto;
 	height: 350px;
 	background: url(../img/backwoman.jpg) center no-repeat;
 	background-size: cover;
+	background-color: white; 
 }
 
 .content-price-text{
@@ -542,7 +551,9 @@ margin: auto;
 .content-register{
 	width: 100%;
 	height: 600px;
-	background: #74b4df;
+	/*background-image: url(../img/vintageback1.png) no-repeat;*/
+	background-color: #74b4df ;
+	
 }
 
 .content-register-title{
