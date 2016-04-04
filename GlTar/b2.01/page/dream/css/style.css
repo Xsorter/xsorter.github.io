@@ -362,6 +362,12 @@ header{
 	margin-top: 40px;
 }
 
+.content-info-title-info-image-second{
+	display: block;
+	margin:0 auto;
+	margin-top: 50px;
+}
+
 .content-info-text-box{
 	width: 100%;
 	max-width: 900px;
@@ -660,7 +666,7 @@ footer{
 .header-mobile-contact{
 	display: none;
 	width: 100%;
-	max-width: 180px;
+	max-width: 200px;
 	height: 45px;
 	margin-right: 0px;
 	margin-top: 4px;
