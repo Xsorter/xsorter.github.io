@@ -5,7 +5,7 @@
 
 //require("smtp.php");
 header ("Content-Type: text/html; charset=utf-8"); //кодировка
-$to = "ivanenkom1985@gmail.com"; //получатель уведомлений
+$to = "xsorter@gmail.com"; //получатель уведомлений
 
 // не трогать
 
@@ -100,7 +100,7 @@ if ($interval < 1) { // интервал отправки (сек)
 		$cs = $_POST["cs"];
 		$ip = $_SERVER["REMOTE_ADDR"];
 
-		$title 	= "Новый клиент с сайта Timestore!Кому-то очень срочно нужны часы!";
+		$title 	= "Новый клиент с сайта coach4";
 		$title 	= "=?UTF-8?B?".base64_encode($title)."?=";
 		$mess 	= "";
 
@@ -110,7 +110,7 @@ if ($interval < 1) { // интервал отправки (сек)
 		
 		
 		$headers	 = "Content-type: text/html; charset=utf-8\r\n"; 
-		$headers	.= "From: Timestore <".$from.">\r\n"; 
+		$headers	.= "From: coach4 <".$from.">\r\n"; 
 
 		$sms['msg'] = translit((getOptions(0)));
 		$sms['msg'] = substr($sms['msg'], 0, 160);
@@ -122,7 +122,7 @@ if ($interval < 1) { // интервал отправки (сек)
 		if ( ($sms['id'] != '') || ($sms['key'] != '') || ($sms['log'] != '') ) {
 			@sendSMS($num, $sms['msg']); 
 		}
-		jsAnswer('success', 'c_success', '', 'Спасибо, сообщение отправлено');
+		jsAnswer('success', 'c_success', '', 'Спасибо, мы свяжемся с Вами в течении 30 минут!');
 	} else {
 		jsAnswer('error', 'c_error', '', 'Ошибка');
 	}

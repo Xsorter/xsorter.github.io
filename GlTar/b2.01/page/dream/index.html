@@ -24,7 +24,7 @@
       <li class="menu-mobile-item"><a class="menu-mobile-item-link" href="../../page/event/index.html">Мероприятия</a></li>
       <li class="menu-mobile-item"><a class="menu-mobile-item-link" href="../../page/service/index.html">Услуги</a></li>
       <li class="menu-mobile-item"><a class="menu-mobile-item-link" href="../../page/foto/index.html">Фотоотчет</a></li>
-      <li class="menu-mobile-item"><a class="menu-mobile-item-link" href="">Контакты</a></li>
+      <li class="menu-mobile-item"><a class="menu-mobile-item-link" href="../../page/contact/index.html">Контакты</a></li>
       <li class="menu-mobile-item"><a class="menu-mobile-item-link" href="../../page/feedback/index.html">Отзывы</a></li>
     </ul>
   </div> 
@@ -39,14 +39,14 @@
           <li class="menu-item"><a class="menu-item-link" href="../../page/event/index.html">Мероприятия</a></li>
           <li class="menu-item"><a class="menu-item-link" href="../../page/service/index.html">Услуги</a></li>
           <li class="menu-item"><a class="menu-item-link" href="../../page/foto/index.html">Фотоотчет</a></li>
-          <li class="menu-item"><a class="menu-item-link" href="">Контакты</a></li>
+          <li class="menu-item"><a class="menu-item-link" href="../../page/contact/index.html">Контакты</a></li>
           <li class="menu-item"><a class="menu-item-link" href="../../page/feedback/index.html">Отзывы</a></li>
         </ul>
       </div>
       <div class="header-contact">
         <a href="https://www.facebook.com/glazunovataran"><div class="header-contact-ico"></div></a>
         <p class="header-contact-phone">+38 (099) 471-76-69</p>
-        <div class="header-contact-callme">Заказать звонок</div>
+        <div class="header-contact-callme callme_viewform">Заказать звонок</div>
       </div>
     </div>
     </header>
@@ -187,11 +187,12 @@
         <p class="content-register-title">
           Заполните форму,</br>чтобы гарантировать участие
         </p>
-        <form class="content-register-form" id="register-form" action="http://xn--80axfis.xn----7sbajzfbacq2eog.xn--p1ai/cgi/send-form.exe?6fb780ef3c4659899d45e188e1966e3a" method="post">
-          <input class="content-register-input" type="text" name="name" required placeholder="Ваше имя*">
-          <input class="content-register-input" type="tel" name="name" required placeholder="Ваш телефон*">
-          <input class="content-register-input" type="email" name="name" placeholder="Ваш e-mail">
-          <input class="content-register-button" type="submit" name="name" value="Принять участие">
+        <form class="content-register-form" data-cme="переход с формы dream" id="register-form" method="post">
+          <input class="content-register-input" type="text" name="Ваше имя" required placeholder="Укажите Ваше имя*">
+          <input class="content-register-input" type="tel" name="Ваш телефон" required placeholder="Укажите Ваш телефон*">
+          <input class="content-register-input" type="email" name="Ваш e-mail" required placeholder="Укажите Ваш e-mail*">
+          <input class="content-register-button cme-btn" data-cme="переход с формы dream" type="submit" name="name" value="Принять участие">
+          <div class="callme-result cme-btn-message"></div>
         </form>
       </div>
     </div>
@@ -199,13 +200,13 @@
       <div class="header-mobile-contact">
         <a href="https://www.facebook.com/glazunovataran"><div class="header-contact-ico"></div></a>
         <p class="header-contact-phone">+38 (099) 471-76-69</p>
-        <div class="header-contact-callme">Заказать звонок</div>
+        <div class="header-contact-callme callme_viewform">Заказать звонок</div>
       </div>
       <a href="https://www.facebook.com/glazunovataran"><div class="header-navigation-ico"></div></a>
       <p class="header-copyright">Glazunova & Taran &#169 2016</p>
     </footer>      
       <p class="header-copyright-mobile">Glazunova & Taran &#169 2016</p>
-      
+<script type="text/javascript" charset="utf-8" src="/callme/js/callme.js"></script>      
 <script src="js/scrolling.js"></script>   
 <script src="js/jqscript.js"></script>
 </body>

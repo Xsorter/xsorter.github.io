@@ -625,9 +625,16 @@ margin: auto;
 	color: white;
 	font-family: 'proxima';
 	font-size: 30px;
-	background: #931614;
+	background: #931614 !important;
 	cursor: pointer;
 	transition: 0.4s ease;
+}
+
+.cme-btn-message{
+	color:white;
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'proxima';
 }
 
 .content-register-button:hover{
