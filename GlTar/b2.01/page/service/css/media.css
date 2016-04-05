@@ -510,7 +510,7 @@ header{
 .content-box{
 	width: 100%;
 	max-width: 480px;
-	height: 3000px;
+	height: 1730px;
 	margin: auto;
 }
 
@@ -530,7 +530,7 @@ header{
 
 	height: 120px;
 	width: 100%;
-	background: #bbd3ec;
+	background: #eeeef4;
 	outline: 10px solid rgba(255,255,255,0.8); 
     outline-offset: -10px;
     -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.52);
