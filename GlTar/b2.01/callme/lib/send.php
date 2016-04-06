@@ -5,7 +5,7 @@
 
 //require("smtp.php");
 header ("Content-Type: text/html; charset=utf-8"); //кодировка
-$to = "xsorter@gmail.com"; //получатель уведомлений
+$to = "GlazunovaTaran@gmail.com"; //получатель уведомлений
 
 // не трогать
 

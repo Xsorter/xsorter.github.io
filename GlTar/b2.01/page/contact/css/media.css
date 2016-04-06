@@ -53,17 +53,8 @@
 .header-mobile-contact{
 	display: none;
 }
-
 }
 
-@media screen and (max-width: 1800px) and (min-width: 1600px) {
-
-}
-
-@media screen and (max-width: 1600px) and (min-width: 1368px) {
-
-
-}
 
 /*MEDIA-1368px*/
 @media screen and (max-width: 1368px){
@@ -108,7 +99,6 @@
 .header-contact-phone{
 	font-size: 18px;
 	margin-left: 10px;
-	
 }
 
 .header-contact-callme{
@@ -120,7 +110,6 @@
 	padding-top: 7px;
 }
 }
-
 
 
 /*MEDIA-1240px fix */
@@ -167,7 +156,6 @@
 	font-size: 12px;
 	margin-left: 10px;
 	margin-top: 12px;
-	
 }
 
 .header-contact-callme{
@@ -182,7 +170,6 @@
 .events-text-title{
 	font-size: 180%;
 }
-
 }
 
 
@@ -228,7 +215,6 @@
 	
 }	
 }
-
 
 
 /*MEDIA-890px fix*/
@@ -417,7 +403,6 @@ footer{
 }
 
 
-
 /*MEDIA-480px*/
 
 @media screen and (max-width: 480px){
@@ -492,14 +477,6 @@ header{
 	padding-top: 0px;
 	border-radius: 5px;
 }
-
-
-
-
-
-
-
-
 
 .content{
 	width: 100%;
@@ -596,20 +573,6 @@ header{
 	padding: 40px 50px 50px 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header-navigation-menu-box{
 	display: none;
 }
@@ -652,10 +615,6 @@ footer{
 .header-copyright-mobile{
 	display: block;
 }
-
-
-
-
 
 
 
@@ -774,11 +733,6 @@ footer{
  	-moz-transform: scale(1.0);
  	-o-transform: scale(1.0);
 }
-
-
-
-
-
 }
 
 /*MEDIA-320px*/
