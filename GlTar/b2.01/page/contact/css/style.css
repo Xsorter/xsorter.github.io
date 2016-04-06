@@ -205,6 +205,11 @@ a:hover{
 	text-decoration: underline;
 }
 
+iframe{
+	width: 100%;
+	frameborder: 0;
+	border: none;
+}
 
 /*footer*/
 footer{
