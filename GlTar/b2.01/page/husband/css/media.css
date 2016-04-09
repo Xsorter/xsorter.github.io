@@ -496,15 +496,10 @@ header{
 
 
 
-
-
-
-
-
 .content-background{
 	width: 100%;
-	height: 600px;
-	background: url(../img/husband2.png) center no-repeat;
+	height: 570px;
+	background: url(../img/4.jpg) center no-repeat;
 }
 
 
@@ -792,7 +787,7 @@ header{
 
 .content-schedule{
 	width: 100%;
-	height: 1420px;
+	height: auto;
 	background: #eeeef4;
 }
 
@@ -807,14 +802,14 @@ header{
 .content-schedule-box{
 	width: 100%;
 	max-width: 900px;
-	height: 1420px;
+	height: auto;
 	margin:0 auto;
 	margin-top: 50px;
 }
 
 .content-schedule-box-info{
 	width: 290px;
-	height: 400px;
+	height: 450px;
 	background: white;
 	float: none;
 	padding-top: 10px;
@@ -1058,7 +1053,7 @@ footer{
 .content-background{
 	width: 100%;
 	height: 600px;
-	background: url(../img/husband2.png) center no-repeat;
+	background: url(../img/4.jpg) center no-repeat;
 }
 
 
@@ -1193,8 +1188,8 @@ footer{
 
 .content-background{
 	width: 100%;
-	height: 600px;
-	background: url(../img/husband2.png) center no-repeat;
+	height: 570px;
+	background: url(../img/4.jpg) center no-repeat;
 }
 
 .content-trainers-image{
