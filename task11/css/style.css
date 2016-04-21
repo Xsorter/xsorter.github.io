@@ -1,0 +1,289 @@
+body{
+	background: url(../img/grass.jpg) center no-repeat fixed;
+	background-size: cover;
+} 
+
+.title-box{
+	width: 100%;
+	line-height: 100px;
+	margin-bottom: 50px;
+	background: rgba(66,76,5,0.5);
+}
+
+.title-box p{
+	text-align: center;
+	font-family: 'League Gothic';
+	font-size: 86px;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.jssorb05 {
+    position: absolute;
+}
+
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url('img/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div {
+	 background-position: -7px -7px; 
+}
+.jssorb05 div:hover, .jssorb05 .av:hover {
+	 background-position: -37px -7px; 
+}
+.jssorb05 .av {
+	 background-position: -67px -7px;
+}
+        
+.jssorb05 .dn, .jssorb05 .dn:hover { 
+	 background-position: -97px -7px; 
+}
+
+.jssora12l, .jssora12r {
+     display: block;
+     position: absolute;
+     /* size of arrow element */
+     width: 30px;
+     height: 46px;
+     cursor: pointer;
+     background: url('img/a12.png') no-repeat;
+     overflow: hidden;
+}
+     
+
+.jssora12l { 
+	background-position: -16px -37px; 
+}
+.jssora12r { 
+	background-position: -75px -37px; 
+}
+.jssora12l:hover { 
+	background-position: -136px -37px; 
+}
+.jssora12r:hover { 
+	background-position: -195px -37px; 
+}
+.jssora12l.jssora12ldn { 
+	background-position: -256px -37px; 
+}
+.jssora12r.jssora12rdn {
+ background-position: -315px -37px; 
+}
+
+
+
+.content-select{
+	margin:auto;
+	width: 300px;
+}
+
+.content-select p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'open sans';
+	font-size: 18px;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+select{
+	margin-left: 10px;
+	padding-left: 20px;
+}
+
+.checkbox-jquery{
+	margin:auto;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.checkbox-css{
+	margin:auto;
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.checkbox-text{
+	display: inline-block;
+	font-family: 'open sans';
+	margin-top: 2px;
+	margin-left: 5px;
+	position: absolute;
+	font-size: 14px;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.checkbox-title{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'open sans';
+	font-size: 18px;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+
+.niceCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background: url(../img/checkbox-sprite.png);
+}
+
+.niceCheck input {
+display: none;
+}
+
+
+
+
+
+
+
+input[type=checkbox] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label {
+    cursor: pointer;
+    font-family: 'open sans';
+	font-family: 'open sans';
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+label:after {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../img/checkbox.png);
+    position: relative;
+    top: 3px;
+    margin-left: 0px;
+}
+
+input[type=checkbox]:checked + label:after {
+	background-position: 0 -17px;
+}
+
+label:hover:after {
+	background-position: 0 -34px;
+}
+
+input[type=checkbox]:checked + label:hover:after {
+	background-position: 0 -51px;
+}
+
+
+
+
+
+.navigation{
+	background: rgba(66,76,5,0.5);
+	height: 40px;
+	width: 450px;
+	margin: auto;
+}
+
+
+
+.menu{
+
+	background: red;
+
+}
+
+.menu-item{
+	margin-left: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 40px;
+	font-family: 'open sans';
+	color: white;
+	font-size: 18px;
+	float: left;
+	border-right: 1px solid  rgba(66,99,5,0.0);
+	border-left: 1px solid  rgba(66,99,5,0.0);
+
+}
+
+.menu-item img{
+	margin-left: 5px;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.menu li:hover{
+	border-right: 1px solid  yellow;
+	border-left: 1px solid yellow;
+}
+
+.menu li a:hover{
+	color: yellow;
+	text-decoration: none;
+	
+}
+
+.submenu{
+	margin: 10px;
+	float: none;
+	position: absolute;
+	display: none;
+}
+
+.submenu li{
+	padding-left:10px;
+	padding-right: 10px; 
+	float: none;
+	background: rgba(66,99,5,0.8);
+}
+
+.submenu li:hover{
+	background: rgba(96,99,5,0.9);
+	border-right: none;
+	border-left: none;
+}
+
+.subsubmenu{
+	display: none;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.null{
+	height: 1px;
+	width: 100%;
+	margin-top: 500px;
+}

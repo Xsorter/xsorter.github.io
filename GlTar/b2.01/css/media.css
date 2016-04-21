@@ -385,6 +385,28 @@ header{
 	display: none;
 }
 
+.header-navigation-ico-vk{
+	width: 24px;
+	height: 24px;
+	margin-top: 11px;
+	margin-left: 40px;
+	display: block;
+	position: absolute;
+	float: left;
+	background: url(../img/ico/vk.png) center center no-repeat;
+	background-size:100%;
+}
+
+.header-navigation-ico-youtube{
+	width: 24px;
+	height: 24px;
+	margin-top: 11px;
+	margin-left: 10px;
+	float: left;
+	background: url(../img/ico/youtube.png) center center no-repeat;
+	background-size:100%;
+}
+
 .header-navicon{
 	display: block;
 }
