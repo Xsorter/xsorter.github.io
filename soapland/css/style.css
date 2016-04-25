@@ -9,15 +9,8 @@
 	font-size: 26px;
 }
 
-.three{
-	font-family:'PT Sans', sans-serif;
-	font-size: 26px;
-}
 
-.four{
-	font-family: 'Comfortaa', cursive;
-	font-size: 26px;
-}
+
 
 header{
 	height: 80px;
@@ -35,4 +28,33 @@ header{
 	background-size: cover;
 	width: 100%;
 	height: 600px;
+}
+
+
+
+.lbase{
+	margin-top: -100px;
+	margin-right: 200px;
+}	
+
+.lone{
+	margin-top: -70px;
+}
+
+.ltwo{
+	margin-top: -140px;
+	
+}
+
+.lthree{
+	margin-top: -210px;
+	
+}
+
+.lf{
+	margin-top: -280px;
+}
+
+.lfive{
+	margin-top: -350px;
 }
