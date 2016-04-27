@@ -24,12 +24,30 @@ header{
 }
 
 .background{
-	background: url(../img/back2.jpg) center no-repeat;
+	background: url(../img/back3.jpg) center no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 600px;
 }
 
+.background-title{
+	height: 150px;
+	width: 100%;
+	/*background: rgba(65,118,0,0.3);*/
+	margin-top: 10%;
+	position: absolute;
+}
+
+.background-title-text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 108px;
+	display: block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 150px;
+	color: white;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+}
 
 
 .lbase{
@@ -38,23 +56,23 @@ header{
 }	
 
 .lone{
-	margin-top: -70px;
+	margin-top: -80px;
 }
 
 .ltwo{
-	margin-top: -140px;
+	margin-top: -160px;
 	
 }
 
 .lthree{
-	margin-top: -210px;
+	margin-top: -240px;
 	
 }
 
 .lf{
-	margin-top: -280px;
+	margin-top: -320px;
 }
 
 .lfive{
-	margin-top: -350px;
+	margin-top: -400px;
 }
