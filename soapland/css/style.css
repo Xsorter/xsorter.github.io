@@ -10,8 +10,6 @@
 }
 
 
-
-
 header{
 	height: 80px;
 	width: 100%;
@@ -46,7 +44,7 @@ header{
 }
 
 .background-title-text{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 108px;
 	display: block;
 	float: right;
@@ -54,7 +52,15 @@ header{
 	margin-right: 150px;
 	color: white;
 	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+	text-align: center;
+	line-height: 70px;
 }
+
+.background-title-text span{
+	font-size: 40px;
+
+}
+
 
 .content-water{
 	position: absolute;
@@ -106,12 +112,44 @@ header{
 	font-weight: bolder;
 }
 
+
+
+
+.info-box{
+	width: 100%;
+	background: #eeeef4;
+	height: 500px;
+
+}
+
+.info-box-title{
+	text-align: center;
+	font-family:'Open Sans', sans-serif;
+	font-size: 32px;
+	padding-top: 20px;
+	color: #444444;
+
+
+}
+
+.items{
+	width: 100%;
+	height: 5500px;
+	position: relative;
+}
+
 .items-box{
 	width: 100%;
-	position: relative;
+	position: static;
 	height: 500px;
-	background: red;
 	margin: auto;
+	
+}
+
+.test{
+	width: 100%;
+	height: 700px;
+	background: green;
 }
 
 .items-box-image{
@@ -120,6 +158,8 @@ header{
  	height:90%;
  	float: left;
  	color:black;
+ 	background: red;
+
 }
 
 .items-box-image img:hover{
@@ -151,6 +191,7 @@ header{
 	position: absolute;
 	/*margin-top: 15%;*/
  	font-family:'Open Sans', sans-serif;
+ 	z-index: 20;
 }
 
 .items-box-text-wrapper p{
