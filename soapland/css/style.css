@@ -1,15 +1,4 @@
 
-.one{
-	font-family:'Open Sans', sans-serif;
-	font-size: 26px;
-}
-
-.sec{
-	font-family:'Roboto Condensed', sans-serif;
-	font-size: 26px;
-}
-
-
 header{
 	height: 80px;
 	width: 100%;
@@ -19,6 +8,75 @@ header{
 .header-logo{
 	margin-left:10px;
 	margin-top: 4px;
+	position: relative;
+	float: left;
+}
+
+.header-contact-ico{
+	width: 48px;
+	height: 48px;
+	margin-right: 20px;
+	margin-top: -62px;
+	float: right;
+	background: url(../img/ico/facebook.png);
+}
+
+.header-contact-ico:hover{
+	background: url(../img/ico/facebookh.png);
+}
+
+.header-menu{
+	
+}
+
+.header-menu-box{
+	margin-left: 150px;
+}
+
+.header-menu li{
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: 2px solid white;	
+}
+
+.header-menu a:hover{
+	color: black;
+
+}
+
+.header-menu li:hover{
+	background: #9bf076;
+	color: black;
+	border-bottom: 2px solid #206800;
+}
+
+.header-menu li:first-child:hover{
+	background: #fab000;
+	color: black;
+	border-bottom: 2px solid #206800;
+}
+
+
+.header-menu a{
+	line-height: 78px;
+	display: block;
+	text-decoration: none;
+	color: #2e9500;
+}
+
+.header-phone{
+	font-family: 'Poiret One', cursive;
+	display: block;
+	float: right;
+	font-size: 22px;
+	margin-top: -50px;
+	margin-right: 90px;
+	font-weight: bold;
+	color: #2e9500;
 }
 
 .header-water{
@@ -139,6 +197,11 @@ header{
 	color: #444444;
 }
 
+.info-box-text a{
+	text-decoration: none;
+	color: green;
+}
+
 .info-box-image{
 	display: block;
 	margin: auto;
@@ -163,7 +226,7 @@ header{
 
 .items{
 	width: 100%;
-	height: 7100px;
+	
 	position: relative;
 }
 
@@ -172,13 +235,32 @@ header{
 	position: static;
 	height: 500px;
 	margin: auto;
-	
 }
 
-.test{
+.items-title{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 24px;
+	padding-top: 20px;
+	color: #444444;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 50px;
+}
+
+.deliver{
 	width: 100%;
-	height: 700px;
-	background: green;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 6550px;
+}
+
+.deliver-water{
+	position: absolute;
+	margin-top: -1400px;
+	margin-left: -900px;
 }
 
 .items-box-image{
@@ -235,6 +317,23 @@ header{
 }
 
 
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 7680px;
+}
+
+
+
+
+
+
+
+
 .lbase{
 	margin-top: -100px;
 	margin-right: 200px;
@@ -260,4 +359,25 @@ header{
 
 .lfive{
 	margin-top: -400px;
+}
+
+#toTop {
+	width:100px;
+	line-height: 20px;
+	border:1px solid #ccc;
+	background:#f7f7f7;
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:10px; /* отступ кнопки от нижнего края страницы*/
+	right:10px;
+	cursor:pointer;
+	display:none;
+	color:#333;
+	font-family:verdana;
+	font-size:11px;
+	color: green;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	font-weight: bold;
 }
