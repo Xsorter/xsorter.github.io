@@ -14,3 +14,4 @@ tabs.on('click', '.tabs-menu a', function(e){
     $(activeTab).show();
     });
 });
+
