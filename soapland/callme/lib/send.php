@@ -5,7 +5,7 @@
 
 //require("smtp.php");
 header ("Content-Type: text/html; charset=utf-8"); //кодировка
-$to = "GlazunovaTaran@gmail.com"; //получатель уведомлений
+$to = "xsorter@gmail.com"; //получатель уведомлений
 
 // не трогать
 
@@ -100,7 +100,7 @@ if ($interval < 1) { // интервал отправки (сек)
 		$cs = $_POST["cs"];
 		$ip = $_SERVER["REMOTE_ADDR"];
 
-		$title 	= "Новый клиент с сайта coach4";
+		$title 	= "Новый клиент с сайта soapland";
 		$title 	= "=?UTF-8?B?".base64_encode($title)."?=";
 		$mess 	= "";
 
