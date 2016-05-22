@@ -373,7 +373,7 @@ header{
 
 .content-water{
 	position: absolute;
-	margin-top: 650px;
+	margin-top: 500px;
 	margin-left: -510px;
 }
 
@@ -383,6 +383,18 @@ header{
 	padding-top: 10px;
 	padding-bottom: 30px;
 	max-width: 320px;
+}
+
+.info-box-text{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	padding-left: 10px;	 
+	padding-right: 10px;
+	color: #444444;
 }
 
 .items-title{
@@ -422,7 +434,7 @@ header{
 .items-box{
 	width: 100%;
 	position: static;
-	height: 250px;
+	height: 220px;
 	margin: auto;
 }
 
@@ -432,7 +444,7 @@ header{
 	height: 1100px;
 	background: white;
 	position: absolute;
-	margin-top: 6800px;
+	margin-top: 6000px;
 }
 
 footer{
@@ -441,7 +453,7 @@ footer{
 	background: url(../img/grass4.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-	margin-top: 7900px;
+	margin-top: 7100px;
 }
 
 
