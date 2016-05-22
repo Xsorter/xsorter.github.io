@@ -360,12 +360,12 @@ header{
 }
 
 .background-title-text span{
-	font-size: 40px;
+	font-size: 30%;
 
 }
 
 .content-wrapper-text{
-	padding: 70px 40px 80px 40px;
+	padding: 90px 40px 80px 40px;
 	text-align: center;
 	font-size: 16px;
 	line-height: 20px;
@@ -377,9 +377,45 @@ header{
 	margin-left: -510px;
 }
 
+.info-box-image{
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	max-width: 320px;
+}
+
+.items-title{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 50px;
+}
+
 
 .items-box-image{
  	width:100%;
+}
+
+.items-box-text-wrapper{
+	width: 30%;
+	height: 50%;
+	color: white;
+	background: rgba(0,0,0,0.0);
+	margin-left: 1%;
+	margin-top: 1%;
+	position: absolute;
+	/*margin-top: 15%;*/
+ 	font-family:'Open Sans', sans-serif;
+ 	z-index: 20;
+}
+
+.items-box-text-wrapper p{
+	line-height: 15px;
+	text-align: left;
+	font-size: 70%;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -443,4 +479,11 @@ footer{
 }
 
 
+}
+
+@media screen and (max-width: 400px){
+	.background-title-text span{
+	font-size: 25%;
+
+}
 }
