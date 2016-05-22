@@ -280,6 +280,212 @@ footer{
 }
 
 
+@media screen and (max-width: 698px){
+
+#scene{
+	display: block;
+}
+
+#scene img{
+	width: 100px;
+	height: 70px;
+}
+
+header{
+	height: 50px;
+}
+
+.header-logo{
+	height: 50px;
+}
+
+.header-logo img{
+	height: 40px;
+}
+
+.header-contact-ico{
+	display: none;
+}
+
+.header-navicon{
+	display: block;
+	float: right;
+	margin-right: 20px;
+}
+
+.header-menu-box{
+	display: none;
+}
+
+.header-phone{
+	display: none;
+}
+
+.background{
+	background: url(../img/back3.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+.background-title{
+	height: 150px;
+	width: 100%;
+	/*background: rgba(65,118,0,0.3);*/
+	margin-top: 5%;
+	position: absolute;
+}
+
+.background-title-text{
+	font-size: 108px;
+	float: none;
+	margin-top: 10px;
+	margin-right: 0px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.background-title-text span{
+	font-size: 30%;
+
+}
+
+.content-wrapper-text{
+	padding: 90px 40px 80px 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.content-water{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: -510px;
+}
+
+.info-box-image{
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	max-width: 320px;
+}
+
+.info-box-text{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	padding-left: 10px;	 
+	padding-right: 10px;
+	color: #444444;
+}
+
+.items-title{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 50px;
+}
+
+
+.items-box-image{
+ 	width:100%;
+}
+
+.items-box-text-wrapper{
+	width: 30%;
+	height: 50%;
+	color: white;
+	background: rgba(0,0,0,0.0);
+	margin-left: 1%;
+	margin-top: 1%;
+	position: absolute;
+	/*margin-top: 15%;*/
+ 	font-family:'Open Sans', sans-serif;
+ 	z-index: 20;
+}
+
+.items-box-text-wrapper p{
+	line-height: 15px;
+	text-align: left;
+	font-size: 70%;
+	text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+.items-box{
+	width: 100%;
+	position: static;
+	height: 220px;
+	margin: auto;
+}
+
+
+.deliver{
+	width: 100%;
+	height: 1100px;
+	background: white;
+	position: absolute;
+	margin-top: 6000px;
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background: url(../img/grass4.png) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	margin-top: 7100px;
+}
+
+
+
+
+
+.lbase{
+	margin-top: -100px;
+	margin-right: 50px;
+}	
+
+.lone{
+	margin-top: -40px;
+	margin-left: 140px;
+}
+
+.ltwo{
+	margin-top: -80px;
+	margin-left: 50px;
+}
+
+.lthree{
+	margin-top: -120px;
+	margin-left: 150px;
+}
+
+.lf{
+	margin-top: -160px;
+	margin-left: 120px;
+}
+
+.lfive{
+	margin-top: -200px;
+	margin-left: 200px;
+}
+
+
+}
+
+@media screen and (max-width: 400px){
+	.background-title-text span{
+	font-size: 25%;
+
+}
+
+}
 
 
 
