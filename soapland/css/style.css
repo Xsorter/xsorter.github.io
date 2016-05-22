@@ -25,6 +25,33 @@ header{
 	background: url(../img/ico/facebookh.png);
 }
 
+.header-navicon{
+	height: 5px; 
+	width: 40px;
+	display: none;
+	border-bottom: 17px double #459300; 
+    border-top: 6px solid  #459300; 
+    content:"";
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+.header-menu-mobile{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 .header-menu{
 	
 }
@@ -32,6 +59,7 @@ header{
 .header-menu-box{
 	margin-left: 150px;
 }
+
 
 .header-menu li{
 	display: inline-block;
@@ -226,7 +254,6 @@ header{
 
 .items{
 	width: 100%;
-	
 	position: relative;
 }
 
@@ -269,8 +296,6 @@ header{
  	height:100%;
  	float: left;
  	color:black;
- 	background: red;
-
 }
 
 .items-box-image img:hover{
