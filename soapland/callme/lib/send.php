@@ -5,7 +5,7 @@
 
 //require("smtp.php");
 header ("Content-Type: text/html; charset=utf-8"); //кодировка
-$to = "xsorter@gmail.com"; //получатель уведомлений
+$to = "chumash_liliya@mail.ru"; //получатель уведомлений
 
 // не трогать
 
@@ -110,7 +110,7 @@ if ($interval < 1) { // интервал отправки (сек)
 		
 		
 		$headers	 = "Content-type: text/html; charset=utf-8\r\n"; 
-		$headers	.= "From: coach4 <".$from.">\r\n"; 
+		$headers	.= "From: soapland <".$from.">\r\n"; 
 
 		$sms['msg'] = translit((getOptions(0)));
 		$sms['msg'] = substr($sms['msg'], 0, 160);
