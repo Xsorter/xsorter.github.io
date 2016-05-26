@@ -12,9 +12,9 @@ function GoogleCallback(data, textStatus){
 };        
 
 $(function(){
-    $('#submit').click(function(e){ 
+    $('#search-button').click(function(e){ 
     e.preventDefault();
-    var query=$('#search').val(); // write query from input field
+    var query=$('#input').val(); // write query from input field
     $.ajax({ 
         //url:'https://www.googleapis.com/customsearch/v1?key=AIzaSyBpGsNzWxYyTaDXjUkhT_ygwpIMg-HB-wA&cx=018381364177235199790:cvzoqkd86t4&q='+query+ '&callback=GoogleCallback&context=?',
         url:'https://pixabay.com/api/?key=2566046-80b4e8851317db138039b9381&q='+query+'&callback=GoogleCallback&context=?',

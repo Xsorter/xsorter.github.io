@@ -75,7 +75,7 @@ function slider(idSlider){
 
 $.ajax({
     type: 'GET',
-    url:'https://pixabay.com/api/?key=2566046-80b4e8851317db138039b9381&q=dawn', 
+    url:'https://pixabay.com/api/?key=2566046-80b4e8851317db138039b9381&q=ocean', 
     //url: 'http://api.pixplorer.co.uk/image?word=' + 'hawaii' + '&amount=7&size=300',
     dataType: 'json',
     success: function(data){
@@ -104,7 +104,38 @@ $.ajax({
 
 
 
+       
 
+$(function(){
+    $('#search-button').click(function(e){ 
+    e.preventDefault();
+    var query=$('#input').val(); // write query from input field
+    $.ajax({ 
+        url:'https://pixabay.com/api/?key=2566046-80b4e8851317db138039b9381&q='+query,
+        dataType: 'jsonp',
+        method: 'GET',
+        success: function(data){
+            console.log(data);
+            var img = _.map(data.hits, 'webformatURL');
+            var item = $('.grid-wrapper-box');
+
+            item.each(function(value){  
+                $(this).css('backgroundImage', 'url('+img[value]+')');  
+        });
+    },
+        error: function(){
+            alert('Картинок с таким названием не найдено');
+        }      
+});
+
+
+
+
+
+
+
+    });
+});
 
 
 
