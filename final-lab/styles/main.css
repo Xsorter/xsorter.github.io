@@ -249,13 +249,17 @@ header {
     color: #ff4e50; }
 
 .grid-wrapper {
-  height: 980px; }
+  height: 1000px;
+  margin-top: 10px; }
+
+.grid-wrapper-title {
+  padding-top: 30px; }
 
 .grid-wrapper-box {
   width: 100%;
   height: 120px;
   margin-top: 10px;
-  background: red;
+  background: #ff4e50;
   border-radius: 5px; }
   .grid-wrapper-box p, .grid-wrapper-box .grid-wrapper-text-third {
     padding-top: 50px;
@@ -272,7 +276,7 @@ header {
   max-width: 320px;
   height: 235px;
   border-bottom: 2px solid #ff4e50;
-  margin-top: 10px; }
+  margin-top: 30px; }
 
 .search-wrapper-text {
   font-family: "Roboto", sans-serif;

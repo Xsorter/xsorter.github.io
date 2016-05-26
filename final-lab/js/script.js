@@ -60,6 +60,55 @@ function slider(idSlider){
     }); 
     
     }
+
+
+
+   /* if (parseInt(data.totalHits) > 0)
+        $.each(data.hits, function(i, hit){ //find object and each hit append to list
+            var pageURL = hit.pageURL;
+            var result = hit.webformatURL;
+            $('#list').append("<li>"+"<img src="+result+ ">");              
+    });
+    else
+        alert('Картинок с таким названием не найдено');
+};  */      
+
+$.ajax({
+    type: 'GET',
+    url:'https://pixabay.com/api/?key=2566046-80b4e8851317db138039b9381&q=dawn', 
+    //url: 'http://api.pixplorer.co.uk/image?word=' + 'hawaii' + '&amount=7&size=300',
+    dataType: 'json',
+    success: function(data){
+    console.log('data', data); 
+    
+    var img = _.map(data.hits, 'webformatURL');
+    
+            function shuffle(a) {   //picture shuffler
+                var j, x, i;
+                for (i = a.length; i; i -= 1) {
+                    j = Math.round(Math.random() * i);
+                    x = a[i - 1];
+                    a[i - 1] = a[j];
+                    a[j] = x;
+                }
+            }
+            
+            shuffle(img);
+            var item = $('.grid-wrapper-box');
+            item.each(function(value){  
+                $(this).css('backgroundImage', 'url('+img[value]+')');  
+        });
+    }     
+});
+
+
+
+
+
+
+
+
+
     
  // End JQuery-plugin-slider  
  
@@ -79,7 +128,11 @@ function slider(idSlider){
 
 
 // ajax 
-$.ajax({
+
+
+
+
+/*$.ajax({
         type: 'GET',
         url:'http://api.pixplorer.co.uk/image?word=' + 'hawaii' + '&amount=7&size=300',
 
@@ -148,9 +201,12 @@ e.preventDefault();
 });
 // End ajax 
 
- 
+ */
 
 
+
+
+/*
 ///////////////// ajax CROS for IE
 $.ajaxTransport("+*", function( options, originalOptions, jqXHR ) {
 
@@ -207,6 +263,8 @@ $.ajaxTransport("+*", function( options, originalOptions, jqXHR ) {
 
 
 
-
+*/
     
 });
+
+
