@@ -2,11 +2,13 @@
 @import '_reset';
 
 
+
 header{
 	width: 100%;
 	max-width: 320px;
 	height: 540px;
-	background: url(../img/320-bg.jpg);
+	background: url(../img/320-bg.jpg) no-repeat;
+	background-size: cover;
 	.header-login{
 		width: 150px;
 		height: 36px;
@@ -407,3 +409,71 @@ footer{
 	margin-top: 20px;
 	display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import '_media';

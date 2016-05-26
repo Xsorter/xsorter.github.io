@@ -1,0 +1,22 @@
+/*MEDIA-320-480px*/
+@import '_variables';
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+header{
+	max-width: 480px;
+}
+
+.partner-wrapper{
+	max-width: 480px;
+}
+
+.search-wrapper{
+	max-width: 480px;
+}
+
+footer{
+	max-width: 480px;
+}
+
+
+}
