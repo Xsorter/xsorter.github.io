@@ -1,12 +1,11 @@
 $(function(){
     
-    
+$('.corner').corner();  //border radius for IE 8  
     
 // JQuery-plugin-slider 
 var id1 = $('#slider1');
 var id2 = $('#slider2');
 var id3 = $('#slider3');
-
 slider(id1);
 slider(id2);
 slider(id3);
@@ -24,8 +23,6 @@ function slider(idSlider){
         el.filter(':nth-child('+indexImg+')').fadeIn(500);
     }   
         
-    
-    
     elWrap.append('<span class="next"></span><span class="prev"></span>');
     var btnNext = $('span.next'),
         btnPrev = $('span.prev');
@@ -44,25 +41,15 @@ function slider(idSlider){
         }
         change ();
     }); 
-    
-    }
+}
+      
 
 
-
-   /* if (parseInt(data.totalHits) > 0)
-        $.each(data.hits, function(i, hit){ //find object and each hit append to list
-            var pageURL = hit.pageURL;
-            var result = hit.webformatURL;
-            $('#list').append("<li>"+"<img src="+result+ ">");              
-    });
-    else
-        alert('Картинок с таким названием не найдено');
-};  */      
+//ajax
 
 $.ajax({
     type: 'GET',
     url:'https://pixabay.com/api/?key=2566046-80b4e8851317db138039b9381&q=ocean', 
-    //url: 'http://api.pixplorer.co.uk/image?word=' + 'hawaii' + '&amount=7&size=300',
     dataType: 'json',
     success: function(data){
     console.log('data', data); 
@@ -89,9 +76,6 @@ $.ajax({
 
 
 
-
-       
-
 $(function(){
     $('#search-button').click(function(e){ 
     e.preventDefault();
@@ -112,159 +96,36 @@ $(function(){
         error: function(){
             alert('Картинок с таким названием не найдено');
         }      
-});
-
-
-
-
-
-
-
     });
 });
 
-
-
-
-    
- // End JQuery-plugin-slider  
- 
-   
-    /*Isotope plugin jQuery
-
-    var $grid = $('.grid').imagesLoaded( function() {
-  // init Isotope after all images have loaded
-  $grid.isotope({
-    // options...
-      itemSelector: '.grid-item',
-      layoutMode: 'fitRows'
-  });
 });
 
-    //End Isotope plugin jQuery  */
-
-
-// ajax 
-
-
-
-
-/*$.ajax({
-        type: 'GET',
-        url:'http://api.pixplorer.co.uk/image?word=' + 'hawaii' + '&amount=7&size=300',
-
-        dataType: 'json',
-        success: function(data){
-//console.log('data', data); 
-     var arrImageurl = _.map(data.images, 'imageurl');
-    
-   //console.log('arrImageurl', arrImageurl); 
-   
-    $('.grid-item').each(function(i){
-     
-       $(this).css('backgroundImage', 'url('+arrImageurl[i]+')');
-       
-   });
-
-        },
-        error: function(){
-            // ошибка в IE8 IE9 не работает 
-            console.log('Request is bad');
-        }
-        
-            
-    });
-
-
-
-$('.input-activities__find-btn').on('click', function(e){
-  
-  var search = $('.input-activities__input-search').val();
-  
-  
-e.preventDefault();
-    if(search){
-        $('.input-activities__input-search').val('');
-     $.ajax({
-        type: 'GET',
-        url:'http://api.pixplorer.co.uk/image?word=' + search + '&amount=7&size=300',
-
-        dataType: 'json',
-        success: function(data){
-//console.log('data', data); 
-     var arrImageurl = _.map(data.images, 'imageurl');
-    
-  // console.log('arrImageurl', arrImageurl); 
-   
-    $('.grid-item').each(function(i){
-     
-       $(this).css('backgroundImage', 'url('+arrImageurl[i]+')');
-       
-   });
-   
-   $('.grid-item > div > p').text(search);
-
-        },
-        error: function(){
-            console.log('Request is bad');
-        }
-        
-            
-    });
-  }
-    
-    
-    
-});
-// End ajax 
-
- */
-
-
-
-
-/*
-///////////////// ajax CROS for IE
+//ajax for IE8
 $.ajaxTransport("+*", function( options, originalOptions, jqXHR ) {
-
     if(jQuery.browser.msie && window.XDomainRequest) {
-
         var xdr;
-
         return {
-
             send: function( headers, completeCallback ) {
-
                 // Use Microsoft XDR
                 xdr = new XDomainRequest();
-
                 xdr.open("get", options.url);
-
                 xdr.onload = function() {
-
                     if(this.contentType.match(/\/xml/)){
-
                         var dom = new ActiveXObject("Microsoft.XMLDOM");
-                        dom.async = false;
+                        dom.async = true;
                         dom.loadXML(this.responseText);
                         completeCallback(200, "success", [dom]);
-
                     }else{
-
                         completeCallback(200, "success", [this.responseText]);
-
                     }
-
                 };
-
                 xdr.ontimeout = function(){
                     completeCallback(408, "error", ["The request timed out."]);
                 };
-
                 xdr.onerror = function(){
                     completeCallback(404, "error", ["The requested resource could not be found."]);
                 };
-
                 xdr.send();
           },
           abort: function() {
@@ -273,15 +134,6 @@ $.ajaxTransport("+*", function( options, originalOptions, jqXHR ) {
         };
       }
     });
-
-
-
-
-
-
-
-*/
-    
 });
 
 

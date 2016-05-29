@@ -24,7 +24,8 @@ module.exports = function(grunt) {
     cssmin: {
       target: {
         files: {
-        'css/dist/main.min.css': 'css/dist/main.css',
+        'styles/dist/main.min.css': 'styles/dist/main.css',
+        'styles/dist/mainIE.min.css': 'styles/dist/styleIE8.css'
       }
     }
   },
