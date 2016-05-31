@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animations and carousel jQuery</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/fontface.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="css/jquery.selectbox.css" type="text/css" rel="stylesheet" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+	<script type="text/javascript" src="js/checkbox.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox-0.2.min.js"></script>
+</head>
+<body>
+	<div class="title-box">
+		<p>Waiting for summer with JS</p>
+	</div>
+
+	<!--html mark up for jquery carousel Jssor Slider-->
+	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="img/02.jpg" />
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="img/04.jpg" />
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="img/05.jpg" />
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="img/09.jpg" />
+            </div>
+            <a data-u="ad" href="http://www.jssor.com" style="display:none">jQuery Slider</a>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    </div>
+    <!-- #endregion Jssor Slider End -->
+
+    <div class="content-select">
+    	<p>Where would you spend these summer?</p>
+    	<select name="country_id" id="country_id" tabindex="1">
+  			<option>at home</option>
+  			<option>abroad</option>
+  			<option>at debugging some code</option>
+  			<option>on the beach near Dnepr</option>
+  			<option>somewhere, i dont care</option>
+		</select>
+	</div>
+
+	<div class="checkbox-jquery">
+		<p class="checkbox-title">Where are you planning to swim this summer?</p>
+		<div><span class="niceCheck"><input type="checkbox" name="ch1" /></span><p class="checkbox-text">in the sea of knowledge</p></div>
+		<div><span class="niceCheck"><input type="checkbox" name="ch1" /></span><p class="checkbox-text">local lake</p></div>
+		<div><span class="niceCheck"><input type="checkbox" name="ch1" /></span><p class="checkbox-text">somewhere abroad</p></div>
+	</div>
+	
+	<div class="checkbox-css"><!--CSS checkboxes-->
+		<div>
+			<input type="checkbox" id="test-check1" /gt>
+			<label for="test-check1"></label>
+			<p class="checkbox-text">pool</p>
+		</div>
+		<div>
+			<input type="checkbox" id="test-check2" /gt>
+			<label for="test-check2"></label>
+			<p class="checkbox-text">in my bathroom</p>
+		</div>
+		<div>
+			<input type="checkbox" id="test-check3" /gt>
+			<label for="test-check3"></label>
+			<p class="checkbox-text">river Dnepr</p>
+		</div>
+	</div>
+	<p class="checkbox-title">Why do you love summer?</p>
+	<div class="navigation">
+	<ul class="menu">
+		<li class="menu-item">
+			<a href="">Girls<img src="img/triangle.png"></a>
+			<ul class="submenu">
+				<li>
+					<a href="">brunnetes<img src="img/triangle.png"></a>
+					<ul class="subsubmenu">
+						<li><a href="">tall</a></li>
+						<li><a href="">small</a></li>
+						<li><a href="">beautiful</a></li>
+						<li><a href="">on the beach</a></li>
+					</ul>
+				</li>
+				<li><a href="">blondes</a></li>
+				<li><a href="">redhead</a></li>
+				<li><a href="">naked</a></li>
+				<li><a href="">any</a></li>
+			</ul>
+		</li>
+		<li class="menu-item">
+			<a href="">Code<img src="img/triangle.png"></a>
+			<ul class="submenu">
+				<li><a href="">many free time 4 code</a></li>
+				<li><a href="">practice JS</a></li>
+				<li><a href="">learn Angular</a></li>
+				<li><a href="">learn ES 2015</a></li>
+				<li><a href="">find new job</a></li>
+			</ul>
+		</li>
+		<li class="menu-item">
+			<a href="">Weather<img src="img/triangle.png"></a>
+			<ul class="submenu">
+				<li><a href="">hot</a></li>
+				<li><a href="">sunny</a></li>
+				<li><a href="">swimming</a></li>
+				<li><a href="">long day</a></li>
+				<li><a href="">clear sky</a></li>
+			</ul>
+		</li>
+		<li class="menu-item">
+			<a href="">Food<img src="img/triangle.png"></a>
+			<ul class="submenu">
+				<li><a href="">fruits</a></li>
+				<li><a href="">strawberry</a></li>
+				<li><a href="">cherry</a></li>
+				<li><a href="">watermelon</a></li>
+				<li><a href="">fresh vegetables</a></li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+	<div class="null">
+		
+	</div>
+
+<script src="js/script.js"></script>
+<script src="js/submenu.js"></script>
+
+</body>
+</html>

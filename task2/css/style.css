@@ -1,0 +1,139 @@
+body{
+    background-color: #f9f9f9;
+}
+
+/*Main canvas*/
+.canvas{
+    margin: 0 auto;
+    height: 950px;
+    width: 1060px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.61);
+    box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.61);
+}
+
+/*header*/
+.logo{
+    height: 40px;
+    width: 145px;
+    margin-left: 45px;
+    padding-top: 50px;
+}
+
+.header{
+    height: 38px;
+    width:970px;
+    margin:0 auto;
+    margin-top: 40px;
+    background: linear-gradient(to top, #444343, #5e5e5e);
+}
+
+.navbar{
+    margin-left: 24px;
+    padding: 12px 25px 12px 25px;
+    display: inline-block;
+    color: white;
+    font-family: Verdana;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.62);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar:hover{
+    border-left: 1px #c8c8c8 solid;
+    border-right: 1px #c8c8c8 solid;
+    background-color: #353535;
+}
+
+/*menu*/
+.menu{
+    height: 240px;
+    width: 240px;
+    margin-top: 40px;
+    margin-left: 45px;
+    float: left;
+    
+}
+
+.menuitem{
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.menuitem:hover{
+    padding-left: 22px;
+    color:black;
+
+}
+
+.sidebar{
+    padding: 12px 50px 13px 20px;
+    border-left: 1px #c8c8c8 solid;
+    border-right: 1px #c8c8c8 solid;
+    border-top: 1px #c8c8c8 solid;
+    font-family: Verdana;
+    font-size: 13.33px;
+}
+
+.sidebar:last-child{
+    border-bottom: 1px #c8c8c8 solid;
+    
+}
+
+.sidebar:hover{
+    background-color: #f9f9f9;
+}
+
+/*content*/
+.img_content{
+    margin-left: 50px;
+    height: 400px;
+    width: 678px;
+    margin-top: 40px;
+    border: 1px #c8c8c8 solid;
+
+}
+
+.content_text{
+    margin-top: 40px;
+    margin-left: 335px;
+    padding-left: 30px;
+    padding-right: 0px;
+    width: 640px;
+    font-family: sans-serif;
+    line-height: 20px;
+    font-size: 13.33px;
+}
+
+/*footer*/
+.footer{
+    height: 38px;
+    width:970px;
+    margin:0 auto;
+    margin-top: 40px;
+    background: #e1e1e1;
+}
+
+.footer_menu{
+    margin-left: 24px;
+    padding: 12px 25px 12px 25px;
+    display: inline-block;
+    color: #2c2c2c;
+    font-family: Verdana;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer_menu:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    padding: 12px 25px 12px 220px;
+    display: inline-block;
+    color: #2c2c2c;
+    font-family: Garamond;
+    font-size: 16px;
+    
+}
