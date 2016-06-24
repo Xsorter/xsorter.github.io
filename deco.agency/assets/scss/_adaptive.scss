@@ -1,0 +1,99 @@
+@media screen and (max-width: 1240px){
+
+header{
+	height: 590px;
+}
+
+.header-logo{
+	margin: 40px 0px 0px 7%;
+}
+
+.header-title{
+	margin: 90px 0px 0px 7%;
+	font-size: 25px;
+}
+
+.header-line{
+	margin: 20px 0px 0px 7%;
+}
+
+.header-text{
+	line-height: 20px;
+	font-size: 15px;
+	margin: 15px 0px 0px 7%;
+}
+
+.btn {
+	margin: 50px 0px 50px 7%;
+}
+
+
+}
+
+
+@media screen and (max-width: 1100px){
+
+header{
+	height: 420px;
+}
+
+.header-title{
+	margin: 70px 0px 0px 7%;
+	font-size: 25px;
+}
+
+
+.header-text{
+	line-height: 18px;
+	font-size: 12px;
+	margin: 15px 0px 0px 7%;
+}
+
+.btn {
+	width: 160px;
+	height: 35px;
+	font-size: 9px;
+	margin: 10px 0px 50px 7%;
+}
+
+.btn:hover{
+	width: 170px;
+	height: 40px;
+	font-size: 10px;
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	.header-logo{
+	margin: 40px 0px 0px 5%;
+}
+
+.header-title{
+	margin: 90px 0px 0px 5%;
+	font-size: 20px;
+}
+
+.header-line{
+	margin: 20px 0px 0px 5%;
+}
+
+.header-text{
+	display: block;
+	line-height: 15px;
+	font-family: $font;
+	font-size: 10px;
+	color: $grey;
+	margin: 15px 0px 0px 5%;
+	span{
+		font-family: $fontbold;
+	}
+}
+
+
+}

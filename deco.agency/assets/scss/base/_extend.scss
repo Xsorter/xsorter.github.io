@@ -85,4 +85,10 @@
 	@include opacity(1);
 }
 
+%clear{
+	&:after{
+		content:"";
+		clear: both;
+	}
+}
 
