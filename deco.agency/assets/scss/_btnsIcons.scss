@@ -30,3 +30,32 @@
 	font-size: 13px;
 	transition: ease-out 0.3s;
 }
+
+
+
+.btn-secondary {
+	@extend %btn;
+	width: 180px;
+	height: 50px;
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	border: none;
+	vertical-align: middle;
+	cursor: pointer;
+	background: $red;
+	border-radius: 30px;
+	font-family: $fontblack;
+	font-size: 11px;
+	color: white;
+	transition: ease-out 0.3s;
+	
+}
+
+.btn-secondary:hover{
+	width: 220px;
+	font-size: 13px;
+	transition: ease-out 0.3s;
+}
+
+
