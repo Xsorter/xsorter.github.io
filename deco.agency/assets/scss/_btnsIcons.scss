@@ -59,3 +59,20 @@
 }
 
 
+.btn-medium{
+	@extend %btn;
+	width: 130px;
+	height: 45px;
+	display: block;
+	margin-left: 160px;
+	margin-top: 40px;
+	border: none;
+	vertical-align: middle;
+	cursor: pointer;
+	background: $red;
+	border-radius: 30px;
+	font-family: $fontblack;
+	font-size: 11px;
+	color: white;
+	transition: ease-out 0.3s;
+}

@@ -6,7 +6,7 @@ $(function(){
 	});
 	$('.focus-document').on('mouseleave', function(){
 		$('.hover-document').css("visibility", "visible");
-		$('.modal-document').css("visibility", "hidden");	
+		$('.modal-document').css("visibility", "hidden");
 	});
 
 	$('.focus-optimization').on('mouseover', function(){
