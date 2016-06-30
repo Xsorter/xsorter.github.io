@@ -272,30 +272,31 @@ header {
 }
 
 /* end of menu */
-/* line 91, assets/scss/_header.scss */
+/*mobile menu*/
+/* line 92, assets/scss/_header.scss */
 .header-menu-mobile-box {
   display: none;
 }
 
-/* line 97, assets/scss/_header.scss */
+/* line 96, assets/scss/_header.scss */
 .header-menu-mobile {
   width: 100%;
   max-width: 300px;
   margin: auto;
 }
-/* line 101, assets/scss/_header.scss */
+/* line 100, assets/scss/_header.scss */
 .header-menu-mobile li {
   text-align: center;
   margin-top: 10px;
   background: #00bbf0;
   line-height: 40px;
 }
-/* line 109, assets/scss/_header.scss */
+/* line 106, assets/scss/_header.scss */
 .header-menu-mobile a {
   color: white;
 }
 
-/* line 114, assets/scss/_header.scss */
+/* line 111, assets/scss/_header.scss */
 .header-navicon {
   height: 5px;
   width: 40px;
@@ -308,7 +309,8 @@ header {
   float: left;
 }
 
-/* line 144, assets/scss/_header.scss */
+/*end of mobile menu*/
+/* line 126, assets/scss/_header.scss */
 .header-login-wrapper {
   width: 170px;
   height: 45px;
@@ -316,12 +318,12 @@ header {
   margin: 35px 20px 0 0;
 }
 
-/* line 151, assets/scss/_header.scss */
+/* line 133, assets/scss/_header.scss */
 .header-login-wrapper:hover .header-login-holder {
   background: url(assets/img/sprite.png) -38px -12px no-repeat;
 }
 
-/* line 155, assets/scss/_header.scss */
+/* line 137, assets/scss/_header.scss */
 .header-login-holder {
   width: 16px;
   height: 16px;
@@ -329,30 +331,30 @@ header {
   background: url(assets/img/sprite.png) -13px -12px no-repeat;
 }
 
-/* line 162, assets/scss/_header.scss */
+/* line 144, assets/scss/_header.scss */
 .header-login-holder:hover {
   background: url(assets/img/sprite.png) -38px -12px no-repeat;
 }
 
-/* line 166, assets/scss/_header.scss */
+/* line 148, assets/scss/_header.scss */
 .header-login-enter, .header-login-register {
   font-size: 11px;
   color: #999a95;
   border-bottom: 1px dashed #999a95;
 }
 
-/* line 172, assets/scss/_header.scss */
+/* line 154, assets/scss/_header.scss */
 .header-login-enter:hover, .header-login-register:hover {
   color: #f908b9;
   border-bottom: 1px dashed #f908b9;
 }
 
-/* line 177, assets/scss/_header.scss */
+/* line 159, assets/scss/_header.scss */
 .header-login-register {
   margin-left: 16px;
 }
 
-/* line 182, assets/scss/_header.scss */
+/* line 164, assets/scss/_header.scss */
 .title {
   width: 100%;
   height: 40px;
@@ -360,7 +362,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* line 189, assets/scss/_header.scss */
+/* line 171, assets/scss/_header.scss */
 .title-wrapper {
   width: 98%;
   max-width: 960px;
@@ -368,7 +370,7 @@ header {
   margin: auto;
 }
 
-/* line 196, assets/scss/_header.scss */
+/* line 178, assets/scss/_header.scss */
 h1 {
   color: white;
 }
@@ -496,55 +498,43 @@ footer {
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 62, assets/scss/_adaptive.scss */
+  /* line 61, assets/scss/_adaptive.scss */
   .header-menu {
     display: none;
   }
 
-  /* line 66, assets/scss/_adaptive.scss */
+  /* line 65, assets/scss/_adaptive.scss */
   .banner {
     display: none;
   }
 
-  /* line 70, assets/scss/_adaptive.scss */
+  /* line 69, assets/scss/_adaptive.scss */
   .header-navicon {
     display: block;
   }
 
-  /* line 74, assets/scss/_adaptive.scss */
+  /* line 73, assets/scss/_adaptive.scss */
   .header-menu-mobile-box {
     display: block;
   }
 
-  /* line 78, assets/scss/_adaptive.scss */
+  /* line 77, assets/scss/_adaptive.scss */
   .header-menu-mobile {
     display: none;
   }
 
-  /* line 82, assets/scss/_adaptive.scss */
+  /* line 81, assets/scss/_adaptive.scss */
   .main-wrapper > .main-slider-box {
     width: 100%;
     max-width: 340px;
     margin: 0 auto;
   }
 
-  /* line 89, assets/scss/_adaptive.scss */
+  /* line 87, assets/scss/_adaptive.scss */
   .main-slider-box > .slider_wrap .img {
     width: 310px;
     margin: auto;
     margin-left: 16px;
-  }
-
-  /* line 95, assets/scss/_adaptive.scss */
-  .slider_wrap span.next {
-    right: 5px;
-    background-position: -12px -39px;
-  }
-
-  /* line 100, assets/scss/_adaptive.scss */
-  .slider_wrap span.prev {
-    left: 5px;
-    background-position: -38px -39px;
   }
 }
 /* line 11, assets/scss/style.scss */
@@ -724,40 +714,40 @@ main {
   background: url(assets/img/sprite.png) no-repeat;
 }
 
-/* line 169, assets/scss/style.scss */
+/* line 170, assets/scss/style.scss */
 .slider_wrap span.next {
   right: 0px;
   background-position: -12px -39px;
 }
 
-/* line 174, assets/scss/style.scss */
+/* line 175, assets/scss/style.scss */
 .slider_wrap span.prev {
   left: 0px;
   background-position: -38px -39px;
 }
 
-/* line 179, assets/scss/style.scss */
+/* line 180, assets/scss/style.scss */
 .img {
   width: 95%;
   height: 100%;
 }
 
-/* line 184, assets/scss/style.scss */
+/* line 185, assets/scss/style.scss */
 .first-slide {
   background: url(assets/img/special.jpg) center 0 no-repeat;
 }
 
-/* line 189, assets/scss/style.scss */
+/* line 190, assets/scss/style.scss */
 .second-slide {
   background: url(assets/img/special_2.jpg) center 0 no-repeat;
 }
 
-/* line 193, assets/scss/style.scss */
+/* line 194, assets/scss/style.scss */
 .third-slide {
   background: url(assets/img/special_3.jpg) center 0 no-repeat;
 }
 
-/* line 203, assets/scss/style.scss */
+/* line 204, assets/scss/style.scss */
 .banner {
   width: 98%;
   max-width: 960px;
@@ -767,7 +757,7 @@ main {
   margin-top: 30px;
 }
 
-/* line 212, assets/scss/style.scss */
+/* line 213, assets/scss/style.scss */
 .banner-text {
   text-align: center;
   margin: auto;
@@ -776,21 +766,21 @@ main {
   color: #edf1f4;
 }
 
-/* line 220, assets/scss/style.scss */
+/* line 221, assets/scss/style.scss */
 .advertisement-link-wrapper {
   width: 98%;
   max-width: 960px;
   margin: auto;
   padding-bottom: 160px;
 }
-/* line 224, assets/scss/style.scss */
+/* line 225, assets/scss/style.scss */
 .advertisement-link-wrapper a {
   padding-top: 10px;
   color: #656565;
   font-size: 10px;
   text-decoration: underline;
 }
-/* line 230, assets/scss/style.scss */
+/* line 231, assets/scss/style.scss */
 .advertisement-link-wrapper a:hover {
   text-decoration: none;
   color: #0072c8;

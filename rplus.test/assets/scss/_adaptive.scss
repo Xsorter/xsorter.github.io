@@ -56,7 +56,6 @@ main>.main-wrapper{
 
 }
 
-
 @media screen and (max-width: 640px){
 
 .header-menu{
@@ -85,21 +84,10 @@ main>.main-wrapper{
 	margin: 0 auto;
 }
 
-
 .main-slider-box>.slider_wrap .img {
     width: 310px;
     margin: auto; 
     margin-left: 16px;
-}
-
-.slider_wrap span.next {
-right:5px;
-background-position:-12px -39px;
-}
-
-.slider_wrap span.prev {
-left:5px;
-background-position: -38px -39px ;
 }
 
 }

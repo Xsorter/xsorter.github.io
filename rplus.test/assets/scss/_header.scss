@@ -88,10 +88,9 @@ header{
 
 /* end of menu */
 
+/*mobile menu*/
 .header-menu-mobile-box{
-	display: none;
-
-	
+	display: none;	
 }
 
 .header-menu-mobile{
@@ -103,8 +102,6 @@ header{
 		margin-top: 10px;
 		background: #00bbf0;
 		line-height: 40px;
-		
-		
 	}
 	a{
 		color: white;
@@ -123,22 +120,7 @@ header{
     float: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*end of mobile menu*/
 
 
 .header-login-wrapper{
