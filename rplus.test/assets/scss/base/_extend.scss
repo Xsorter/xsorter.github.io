@@ -1,0 +1,28 @@
+
+/*center*/
+%vam{
+	top: 50%;
+	@include transform(translateY(-50%));
+}
+
+%ham{
+	left: 50%;
+	@include transform(translateX(-50%));
+}
+
+%cam{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	@include transform(translate(-50%, -50%));
+}
+/*clearfix*/
+
+%clear{
+	&:after{
+		content:"";
+		clear: both;
+	}
+}
+
