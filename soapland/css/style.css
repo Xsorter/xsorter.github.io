@@ -413,9 +413,10 @@ footer{
 
 #toTop {
 	width:100px;
+	border-radius: 20px;
 	line-height: 20px;
 	border:1px solid #ccc;
-	background:#f7f7f7;
+	background:rgba(160,160,160,0.3);
 	text-align:center;
 	padding:5px;
 	position:fixed;
