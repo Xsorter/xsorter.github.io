@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-[22-May-2016 05:56:53 UTC] mail() on [/home/u849913333/public_html/callme/lib/send.php:119]: To: xsorter@gmail.com -- Headers: Content-type: text/html; charset=utf-8  From: coach4 <noreply@soapland.in.ua>
-[22-May-2016 06:00:17 UTC] mail() on [/home/u849913333/public_html/callme/lib/send.php:119]: To: xsorter@gmail.com -- Headers: Content-type: text/html; charset=utf-8  From: soapland <noreply@soapland.in.ua>
-[22-May-2016 06:48:24 UTC] mail() on [/home/u849913333/public_html/callme/lib/send.php:119]: To: chumash_liliya@mail.ru -- Headers: Content-type: text/html; charset=utf-8  From: soapland <noreply@soapland.in.ua>
-=======
-[22-May-2016 05:56:53 UTC] mail() on [/home/u849913333/public_html/callme/lib/send.php:119]: To: xsorter@gmail.com -- Headers: Content-type: text/html; charset=utf-8  From: coach4 <noreply@soapland.in.ua>
-[22-May-2016 06:00:17 UTC] mail() on [/home/u849913333/public_html/callme/lib/send.php:119]: To: xsorter@gmail.com -- Headers: Content-type: text/html; charset=utf-8  From: soapland <noreply@soapland.in.ua>
-[22-May-2016 06:48:24 UTC] mail() on [/home/u849913333/public_html/callme/lib/send.php:119]: To: chumash_liliya@mail.ru -- Headers: Content-type: text/html; charset=utf-8  From: soapland <noreply@soapland.in.ua>
->>>>>>> 97f5991d9fb678b9c1d7704b696a77ad568a530e
